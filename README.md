@@ -9,8 +9,17 @@ It is a starting point — a structural concept built to expand the conversation
 📄 **One-Page Overview (PDF)**  
 [Download ABIC_One_Pager.pdf](https://raw.githubusercontent.com/abic135711-lgtm/abic-open-standard/main/ABIC_One_Pager.pdf)
 
-
 ---
+
+## 📘 Table of Contents
+- [Overview](#overview)
+- [Treaty Architecture](#treaty-architecture)
+- [Engineering & Operations](#engineering--operations)
+- [Governance & Compliance](#governance--compliance)
+- [Public Engagement](#public-engagement)
+- [AI Collaboration Logs](#ai-collaboration-logs)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
 
 ## **📘 Repository Contents**
 
