@@ -1,0 +1,2367 @@
+# **FRAMEWORK CONVENTION ON THE GOVERNANCE AND OPERATION OF THE ASTEROID BELT INDUSTRIAL CORRIDOR (ABIC)**
+
+*A Multilateral Treaty for the Peaceful, Sustainable, and Equitable Use of the Asteroid Belt*
+
+---
+
+# **PREAMBLE**
+
+The Parties to this Convention,
+
+Recognizing the growing importance of safe, sustainable, and cooperative access to outer space for the economic, scientific, and technological advancement of all humankind;
+
+Acknowledging that the asteroid belt contains abundant mineral and volatile resources essential to long-term space habitation, industrialization, and planetary resilience;
+
+Affirming that no nation or private actor may claim sovereignty over celestial bodies, consistent with international space law;
+
+Determining that a coordinated system for logistics, energy-based mass transport, and regulated resource extraction is necessary to prevent unsafe practices, uncontrolled environmental impacts, and inequitable economic outcomes;
+
+Recognizing the limitations of launch-based supply chains and the transformative potential of containerized, energy-based infrastructure, including electromagnetic launchers, tether-based momentum-exchange systems, and orbital depots;
+
+Desiring to prevent monopolization, exclusionary control, or weaponization of mass-transport infrastructure, and to ensure its operation in a transparent, peaceful, and equitable manner;
+
+Recalling the principles of the Outer Space Treaty (1967), the Liability Convention (1972), the Registration Convention (1975), and international environmental and nuclear safety frameworks;
+
+Guided by the principle that the resources of celestial bodies constitute a *managed commons* accessible only through internationally agreed regulations that safeguard scientific value, environmental integrity, and equitable benefit;
+
+Recognizing the need for a neutral, technocratic, and internationally accountable organization to administer standards, licenses, safety protocols, inspections, and equity mechanisms for the Asteroid Belt Industrial Corridor (ABIC);
+
+Committed to promoting broad participation by all nations, including emerging space actors, and ensuring that outer space shall remain a domain for peaceful activity and shared progress;
+
+Have agreed as follows:
+
+---
+
+# **PART I — GENERAL PROVISIONS**
+
+## **Article 1 — Definitions**
+
+For the purposes of this Convention:
+
+1. **“ABIC”** means the Asteroid Belt Industrial Corridor, a coordinated system of orbital depots, containerized transport lanes, electromagnetic launchers, tether- and rotovator-based capture systems, and associated infrastructure used to transport mass within the solar system.
+
+2. **“CanCorridor”** means a designated and certified transport lane for standardized cargo containers propelled through space by non-rocket energy-based systems.
+
+3. **“Container” or “Cargo Canister”** means any ABIC-certified vessel designed to carry bulk materials or equipment through a CanCorridor.
+
+4. **“Depot”** means any orbital facility certified by the IFOC for cargo capture, processing, storage, refueling, redistribution, or associated operational activity.
+
+5. **“Rotovator”** means a tether-based momentum-exchange system used for capturing, redirecting, or slinging cargo canisters.
+
+6. **“Operator”** means any public or private entity authorized by a Member State and licensed by the IFOC to operate ABIC infrastructure or conduct resource extraction.
+
+7. **“Extraction Activity”** means any drilling, excavation, sample return, processing, or transfer of material from an asteroid or related celestial body.
+
+8. **“Managed Commons”** refers to the legal status under which asteroid resources are not subject to national appropriation but may be extracted under regulated, licensed activity in accordance with this Convention.
+
+9. **“Member State”** means any nation that has ratified or acceded to this Convention.
+
+10. **“IFOC”** means the International Freight Operations Consortium, the regulatory and administrative authority established under this Convention.
+
+11. **“Environmental Impact Assessment (EIA)”** means a formal review process evaluating the effects of proposed extraction or industrial activity on the integrity, stability, and scientific value of a celestial body.
+
+12. **“Nuclear Power Unit (NPU)”** means any fission-based or otherwise authorized reactor deployed in space for ABIC operations, owned exclusively by the Space Reactor Authority (SRA) and operated under lease agreements.
+
+13. **“Space Reactor Authority (SRA)”** means the international non-profit entity under joint oversight of the IFOC and the United Nations Office for Outer Space Affairs (UNOOSA), responsible for the sole ownership, fueling, maintenance, material accountability, and end-of-life management of all NPUs utilized in ABIC.
+
+14. **“Scientific Preservation Zone (SPZ)”** means a region of a celestial body designated by the IFOC for restricted or prohibited activity due to geological, historical, or scientific significance.
+
+15. **“Major Operator”** means any Operator whose three-year average throughput exceeds a threshold defined by the IFOC (set initially at 8% of total ABIC mass flow).
+
+16. **“Data Contribution Credit (DCC)”** means a financial instrument granted by the Resource Licensing Authority (RLA) to Operators who submit high-value geological or structural data; DCCs entitle the submitting Operator to a defined share of Tonnage Fees from those who later rely on such data.
+
+17. **“Environmental Offset Credit (EOC)”** means a credit earned by Operators whose activities reduce terrestrial mining needs, improve sustainability, or contribute measurable environmental benefit.
+
+18. **“Corridor Priority Status (CPS)”** means a non-revocable scheduling privilege awarded to Operators who voluntarily comply with enhanced transparency and equitable access obligations.
+
+19. **“ABIC Passport”** means a digital, cryptographically secured identity tag attached to every certified Container that automatically records manifests, levies, compliance data, and EPF-linked dividends.
+
+---
+
+## **Article 2 — Scope and Application**
+
+1. This Convention applies to:
+
+   a. all ABIC infrastructure in any orbit or heliocentric trajectory;
+   b. all extraction and processing of resources from asteroids;
+   c. all CanCorridors, depots, rotovators, tethers, and related systems;
+   d. all nuclear power systems used to support ABIC operations;
+   e. all Operators licensed by Member States and the IFOC.
+
+2. This Convention does not supersede:
+
+   a. the Outer Space Treaty (1967);
+   b. the Liability Convention (1972);
+   c. obligations under any binding international legal instrument.
+
+3. Activities carried out by private Operators remain the responsibility of their licensing Member State.
+
+---
+
+## **Article 3 — Peaceful Use and Non-Weaponization**
+
+1. ABIC infrastructure shall be used exclusively for peaceful purposes.
+
+2. No Member State or Operator may:
+
+   a. deploy weapons within ABIC infrastructure;
+   b. modify ABIC systems to deliver destructive force;
+   c. use ABIC infrastructure to interfere with the space assets of others.
+
+3. Dual-use technologies shall be subject to enhanced transparency and inspection.
+
+---
+
+## **Article 4 — Legal Status of Asteroids and Extracted Resources**
+
+1. Celestial bodies shall not be subject to national appropriation.
+
+2. Extraction is permitted only under:
+
+   a. a valid license from the IFOC, and
+   b. compliance with all environmental, safety, and transparency requirements.
+
+3. Extracted resources become the property of the Operator, subject to:
+
+   a. reporting requirements;
+   b. benefit-sharing obligations;
+   c. SPZ restrictions.
+
+4. No Operator may alter the orbit of a celestial body without explicit authorization from the IFOC.
+
+5. The IFOC may designate Scientific Preservation Zones where extraction is restricted or prohibited.
+
+---
+
+## **Article 5 — Relationship to International Law**
+
+1. Nothing in this Convention shall be interpreted as modifying the obligations of States under:
+
+   a. the UN Charter,
+   b. the Outer Space Treaty,
+   c. the Liability Convention,
+   d. the Nuclear Non-Proliferation Treaty.
+
+2. In cases of conflict, the interpretation most protective of peaceful use, safety, and transparency shall prevail.
+
+---
+
+# **PART II — GOVERNANCE STRUCTURE**
+
+## **Article 6 — Establishment of the International Freight Operations Consortium (IFOC)**
+
+1. The **International Freight Operations Consortium (IFOC)** is hereby established as the principal regulatory, administrative, and oversight body responsible for implementing this Convention.
+
+2. The IFOC shall:
+
+   a. develop and enforce technical standards for ABIC infrastructure;
+   b. administer licensing systems for Operators and extraction activities;
+   c. conduct inspections and ensure compliance;
+   d. certify CanCorridors, depots, rotovators, tethers, and NPUs;
+   e. maintain public registries of operations, telemetry, and extraction volume;
+   f. coordinate multilateral safety and emergency responses;
+   g. manage benefit-sharing and environmental remediation funds;
+   h. administer DCCs, EOCs, ICs, and CPS privileges;
+   i. oversee equity mechanisms for emerging space nations;
+   j. serve as the authority for arbitration and dispute resolution under this Convention.
+
+3. The IFOC shall be **neutral, technocratic, and internationally accountable**.
+   No Member State may exert unilateral control.
+
+4. The IFOC shall operate according to principles of:
+
+   a. transparency;
+   b. open standards;
+   c. non-discrimination;
+   d. scientific integrity;
+   e. accountability;
+   f. equitable access for all Member States.
+
+---
+
+## **Article 7 — Legal Personality and Privileges**
+
+1. The IFOC shall possess international legal personality.
+
+2. The IFOC may:
+
+   a. enter into contracts;
+   b. acquire and dispose of property;
+   c. sue and be sued;
+   d. cooperate with the United Nations and specialized agencies.
+
+3. Privileges and immunities necessary for the functioning of the IFOC shall be negotiated with the Host State.
+
+4. IFOC personnel shall enjoy functional immunity for official actions.
+
+---
+
+## **Article 8 — Organs of the IFOC**
+
+The IFOC shall consist of:
+
+1. The **Assembly of Parties**
+2. The **Executive Council**
+3. The **Secretariat**
+4. The **Technical Standards Board (TSB)**
+5. The **Inspection and Compliance Directorate (ICD)**
+6. The **Resource Licensing Authority (RLA)**
+7. The **Space Reactor Authority (SRA)** (jointly overseen with UNOOSA)
+8. The **Open Standards Office (OSO)**
+9. The **Space Weather and Hazard Bureau (SWHB)**
+10. The **Financial Compliance Office (FCO)**
+
+---
+
+## **Article 9 — The Assembly of Parties**
+
+1. The Assembly consists of one representative from each Member State.
+
+2. Functions:
+
+   a. adopt amendments;
+   b. elect Members of the Executive Council;
+   c. approve the IFOC budget;
+   d. review activity reports;
+   e. designate Scientific Preservation Zones;
+   f. ratify major regulatory revisions;
+   g. approve new Annexes and Protocols.
+
+3. Voting:
+
+   a. two-thirds majority for amendments and SPZ designations;
+   b. simple majority for administrative matters.
+
+---
+
+## **Article 10 — The Executive Council**
+
+1. Composed of **15 elected Members**, serving staggered four-year terms.
+
+2. Seats distributed to ensure balanced representation of:
+
+   a. major spacefaring nations,
+   b. emerging space nations,
+   c. regional groups,
+   d. technical expertise.
+
+3. Functions:
+
+   a. oversee compliance;
+   b. approve operational and extraction licenses;
+   c. adjudicate urgent safety matters;
+   d. authorize emergency suspensions;
+   e. appoint the Director-General;
+   f. oversee AGIIP and EPF high-level decisions;
+   g. approve deployment of NPU fleets and SRA annual plans.
+
+---
+
+## **Article 11 — The Secretariat**
+
+1. Headed by the **Director-General**, appointed by the Executive Council.
+
+2. Responsibilities:
+
+   a. manage daily operations;
+   b. maintain ABIC registries;
+   c. publish telemetry and safety bulletins;
+   d. coordinate inspections with ICD;
+   e. administer benefit-sharing funds, EPF, DCC, EOC, and IC systems;
+   f. maintain the ABIC Passport registry;
+   g. serve as liaison to Member States and Operators.
+
+---
+
+## **Article 12 — The Technical Standards Board (TSB)**
+
+1. Comprised of subject-matter experts nominated by Member States and confirmed by the Executive Council.
+
+2. Functions:
+
+   a. draft and update technical standards for all ABIC infrastructure;
+   b. manage CanCorridor Protocols;
+   c. certify compliance of designs, software, reactors, tethers, and materials;
+   d. maintain cross-compatibility requirements;
+   e. publish all standards freely.
+
+---
+
+## **Article 13 — The Inspection and Compliance Directorate (ICD)**
+
+1. Responsible for:
+
+   a. scheduled and unannounced inspections;
+   b. telemetry and safety audits;
+   c. environmental compliance reviews;
+   d. extraction volume verification;
+   e. NPU integrity inspections (jointly with SRA and IAEA);
+   f. debris mitigation enforcement.
+
+2. Inspectors may:
+
+   a. access facilities, telemetry, and logs;
+   b. inspect NPUs;
+   c. interview personnel;
+   d. observe operational tests.
+
+3. Proprietary information unrelated to safety shall remain confidential.
+
+---
+
+## **Article 14 — The Resource Licensing Authority (RLA)**
+
+1. Issues and administers:
+
+   a. extraction licenses;
+   b. EIA approvals;
+   c. extraction limits and conditions;
+   d. DCC allocation;
+   e. benefit-sharing provisions.
+
+2. Responsible for:
+
+   a. reviewing technical proposals;
+   b. mediating overlapping claims;
+   c. suspending or revoking licenses;
+   d. enforcing SPZ boundaries;
+   e. evaluating DCC royalties and data use claims.
+
+---
+
+## **Article 15 — The Space Reactor Authority (SRA)**
+
+1. The Space Reactor Authority (SRA) is established as a **non-profit, international, jointly overseen entity** under IFOC and UNOOSA.
+
+2. The SRA shall:
+
+   a. own all NPUs deployed in ABIC;
+   b. lease NPUs to Operators;
+   c. maintain fuel accounting and non-proliferation compliance;
+   d. oversee reactor construction, refurbishment, and end-of-life disposal;
+   e. coordinate with IAEA for nuclear oversight;
+   f. maintain real-time telemetry on reactor health and radiation emissions.
+
+3. NPUs may only operate using:
+
+   a. HALEU or equivalent proliferation-resistant fuels;
+   b. fuels certified by IAEA and SRA jointly.
+
+4. The SRA shall maintain a Nuclear Safety Register shared with the IFOC, IAEA, and Member States.
+
+---
+
+## **Article 16 — Headquarters and Regional Offices**
+
+1. The headquarters of the IFOC shall be located in **Geneva, Switzerland**.
+
+2. Regional Offices may be established:
+
+   a. in cislunar space;
+   b. at major depots;
+   c. within the main asteroid belt;
+   d. at additional locations approved by the Assembly.
+
+3. Orbital facilities operated by IFOC shall be considered extraterritorial.
+
+---
+
+## **Article 17 — Participation of Private Operators**
+
+1. Private Operators may participate only if:
+
+   a. sponsored by a Member State,
+   b. licensed by the IFOC,
+   c. compliant with all standards and safety requirements.
+
+2. Operators have rights to:
+
+   a. access public standards;
+   b. appeal regulatory decisions;
+   c. participate in innovation and training programs.
+
+3. Operators may not:
+
+   a. establish exclusive claims;
+   b. refuse service on discriminatory grounds;
+   c. conceal telemetry;
+   d. deploy unauthorized NPUs or reactors.
+
+---
+
+# **PART III — THE ABIC LOGISTICS SYSTEM**
+
+## **Article 18 — Containerized Mass Transport Corridors (“CanCorridors”)**
+
+1. A **CanCorridor** is a designated path for the transit of standardized Containers propelled by non-rocket, energy-based systems, including:
+
+   a. electromagnetic mass drivers;
+   b. tether-assisted slings;
+   c. momentum-exchange systems;
+   d. solar-powered accelerators.
+
+2. All CanCorridors must be:
+
+   a. certified by the Technical Standards Board (TSB);
+   b. continuously monitored by the IFOC;
+   c. listed in the public Orbital Traffic Registry (OTR).
+
+3. Operators may not establish, modify, or deactivate a CanCorridor without Executive Council approval.
+
+4. Certification requires:
+
+   a. orbital analysis;
+   b. collision and debris risk assessment;
+   c. compatibility with rotovators and depots;
+   d. validated telemetry and tracking systems.
+
+5. Unauthorized or unregistered corridors are prohibited.
+
+---
+
+## **Article 19 — Cargo Containers (“Cans”)**
+
+1. Containers must conform to IFOC-standardized dimensions, mass limits, and interface specifications.
+
+2. Every Container must include:
+
+   a. continuous telemetry transponders;
+   b. optical reflectors for tracking;
+   c. passive thermal protection;
+   d. emergency braking or deceleration systems where applicable;
+   e. collision-resistant shells.
+
+3. Specialized Containers may be certified for:
+
+   a. volatiles;
+   b. hazardous materials;
+   c. biological samples;
+   d. processed alloys.
+
+4. Operators shall maintain complete manifests detailing:
+
+   a. contents;
+   b. mass;
+   c. intended trajectory;
+   d. scheduled arrival.
+
+5. Submission of false manifests constitutes a major compliance violation.
+
+---
+
+## **Article 20 — Orbital Depots**
+
+1. A **Depot** is an orbital facility used for:
+
+   a. capture of inbound Containers;
+   b. storage, processing, or refueling;
+   c. redistribution of cargo;
+   d. crew operations and maintenance;
+   e. housing NPUs operated by SRA-certified protocols.
+
+2. Depots must meet:
+
+   a. structural safety and redundancy requirements;
+   b. reactor shielding and containment standards;
+   c. tether and capture system redundancies;
+   d. debris mitigation protocols.
+
+3. Depots must maintain:
+
+   a. real-time telemetry to IFOC;
+   b. emergency shutdown capability;
+   c. independent guidance systems.
+
+4. Depots in the asteroid belt may include:
+
+   a. resource processing modules;
+   b. refining units;
+   c. additive manufacturing facilities;
+   d. return freight storage.
+
+---
+
+## **Article 21 — Rotovators and Momentum-Exchange Systems**
+
+1. A **Rotovator** is a tether-based system designed to:
+
+   a. capture incoming Containers;
+   b. redirect them into new trajectories;
+   c. transfer momentum to or from spacecraft.
+
+2. All rotovators must include:
+
+   a. redundant tether strands;
+   b. counter-rotating mass pairs (where applicable);
+   c. precision timing systems;
+   d. autonomous emergency cutoff;
+   e. breakage containment mechanisms.
+
+3. The TSB shall certify:
+
+   a. tether tension and load limits;
+   b. capture timing windows;
+   c. rotational periods;
+   d. stabilization systems.
+
+4. Rotovators may not be operated:
+
+   a. in geostationary orbit;
+   b. in high-density satellite regions;
+   c. near scientific or military payloads.
+
+5. Tether breakages or near-miss events must be reported **within 24 hours**.
+
+---
+
+## **Article 22 — Safety and Redundancy Standards**
+
+1. All ABIC infrastructure must include:
+
+   a. at least two redundant critical systems;
+   b. passive safety protections;
+   c. autonomous collision avoidance where relevant.
+
+2. Mass drivers must incorporate:
+
+   a. emergency deceleration;
+   b. eject/abort systems;
+   c. surge suppression.
+
+3. Depots must incorporate:
+
+   a. fail-safe container containment;
+   b. structural segmentation;
+   c. rotating crews or supervised AI oversight.
+
+4. Rotovators must incorporate:
+
+   a. emergency tether jettison;
+   b. orbital clearance monitoring.
+
+5. Operators must maintain a **Safety Management System (SMS)** consistent with ICAO/IMO analogues.
+
+---
+
+## **Article 23 — Orbital Traffic Coordination and Collision Avoidance**
+
+1. The IFOC shall maintain a global **Orbital Traffic Registry (OTR)** containing:
+
+   a. all active CanCorridors;
+   b. predicted container trajectories;
+   c. ephemerides of depots, rotovators, and tenders.
+
+2. Operators must submit:
+
+   a. projected departure times;
+   b. intended flight plans;
+   c. emergency abort trajectories.
+
+3. No launch may occur without:
+
+   a. IFOC clearance;
+   b. updated simulation of collision risks.
+
+4. The IFOC may order:
+
+   a. delays;
+   b. re-vectors;
+   c. launch cancellation.
+
+5. Operators must comply immediately.
+
+*Note:* The **RED FLAG** enforcement mechanism for unreported tether breaks or missed telemetry anomalies has been consolidated into **PART XI** but is referenced here.
+
+---
+
+## **Article 24 — Telemetry, Data Transparency, and Public Disclosure**
+
+1. All ABIC infrastructure must transmit:
+
+   a. continuous telemetry;
+   b. health status;
+   c. tracking data;
+   d. NPU reactor power levels.
+
+2. Data must be:
+
+   a. encrypted;
+   b. redundant;
+   c. archived for at least ten years.
+
+3. The following data shall be public:
+
+   a. container trajectories;
+   b. corridor schedules;
+   c. depot operational status;
+   d. incident reports;
+   e. extraction volumes.
+
+4. Proprietary data may be withheld unless relevant to safety or compliance.
+
+---
+
+## **Article 25 — The ABIC Passport System**
+
+1. Every certified Container shall carry an **ABIC Passport**, a cryptographically secured digital identifier that:
+
+   a. files cargo manifests;
+   b. logs levies, fees, and insurance assessments;
+   c. records compliance and inspection data;
+   d. updates EPF-linked dividend allocation;
+   e. interfaces with Member States’ customs systems.
+
+2. The ABIC Passport system shall be:
+
+   a. interoperable with national protocols;
+   b. administered by the Secretariat;
+   c. accessible to Operators and Member States;
+   d. protected against tampering.
+
+3. Alteration or falsification of ABIC Passport data constitutes a major violation.
+
+---
+
+
+# **PART IV — RESOURCE EXTRACTION AND PROCESSING**
+
+## **Article 26 — Licensing of Resource Extraction Activities**
+
+1. No entity may conduct extraction activities on any asteroid or celestial body without a valid **Extraction License** issued by the Resource Licensing Authority (RLA).
+
+2. Licenses may be granted only upon submission of:
+
+   a. a full technical proposal;
+   b. an Environmental Impact Assessment (EIA);
+   c. an operational safety plan;
+   d. a collision and debris mitigation plan;
+   e. proposed extraction volumes and timeframes;
+   f. a benefit-sharing agreement consistent with this Convention.
+
+3. Extraction Licenses shall be time-limited and may be renewed upon review of:
+
+   a. compliance with reporting requirements;
+   b. environmental and scientific preservation performance;
+   c. safety records;
+   d. inspection findings;
+   e. adherence to SPZ boundaries;
+   f. use of DCC-flagged data (if applicable).
+
+4. Licenses may be suspended or revoked for:
+
+   a. falsified data;
+   b. excessive extraction or mass imbalance;
+   c. reactor-related anomalies at associated depots;
+   d. unauthorized territorial markings;
+   e. violation of SPZ restrictions;
+   f. interference with other Operators;
+   g. failure to satisfy DCC royalty obligations.
+
+5. Operators may not sub-license extraction rights without explicit IFOC authorization.
+
+---
+
+## **Article 27 — Scientific Preservation Zones (SPZs)**
+
+1. The Assembly may designate **Scientific Preservation Zones** on any celestial body.
+
+2. SPZs shall be designated based on:
+
+   a. unique geological or mineralogical features;
+   b. paleoregolith or stratigraphic significance;
+   c. low-contamination or primordial environments;
+   d. historical mission sites;
+   e. fragile rubble-pile structures at risk of collapse.
+
+3. Within SPZs:
+
+   a. extraction is prohibited;
+   b. tether anchoring, drilling, or landings are restricted;
+   c. scientific access is permitted under IFOC authorization.
+
+4. Limited extraction may be allowed in SPZ buffer zones with enhanced EIAs.
+
+5. Alteration, falsification, or concealment of SPZ boundaries constitutes a major violation.
+
+---
+
+## **Article 28 — Environmental Impact Assessments (EIAs)**
+
+1. EIAs are required for:
+
+   a. all new extraction operations;
+   b. major expansions of existing operations;
+   c. installation of depots or industrial modules on celestial surfaces;
+   d. tether anchoring or stabilization activities.
+
+2. EIAs must evaluate:
+
+   a. surface disruption;
+   b. dust generation and escape risks;
+   c. internal structural integrity;
+   d. thermal stresses from reactor or industrial activity;
+   e. contamination risks;
+   f. scientific value preservation.
+
+3. EIAs must include:
+
+   a. baseline site data;
+   b. projected resource yields;
+   c. accident scenarios;
+   d. mitigation strategies;
+   e. effects on SPZs, if relevant.
+
+4. Public notice of EIAs shall allow a **60-day review period** for Member State and scientific comment.
+
+5. The RLA shall approve, modify, or reject EIAs.
+
+---
+
+## **Article 29 — Extraction Limits and Sustainable Practices**
+
+1. The IFOC shall set extraction limits based on:
+
+   a. body size and composition;
+   b. structural stability;
+   c. cumulative activity by all Operators;
+   d. long-term resource sustainability;
+   e. SPZ adjacency;
+   f. dust and mass balance models.
+
+2. Extraction methods must:
+
+   a. maintain surface cohesion;
+   b. avoid destabilizing rubble piles;
+   c. minimize debris creation;
+   d. prevent uncontrolled mass ejection.
+
+3. Activities requiring enhanced review include:
+
+   a. deep-core drilling;
+   b. explosive fragmentation;
+   c. sustained thermal alteration;
+   d. high-volume mass removal affecting orbital momentum.
+
+4. Operators must implement:
+
+   a. dust suppression;
+   b. thermal management;
+   c. structural stabilization;
+   d. containment measures for debris.
+
+5. Extraction must cease immediately in the event of:
+
+   a. unexpected structural collapse;
+   b. uncontrolled dust generation;
+   c. significant orbital deviation;
+   d. tether anchor failure.
+
+---
+
+## **Article 30 — Processing Facilities and Industrial Modules**
+
+1. Processing facilities deployed on or near asteroids must be:
+
+   a. licensed;
+   b. self-contained;
+   c. equipped with mass-containment systems;
+   d. shielded against thermal radiation;
+   e. continuously monitored.
+
+2. Industrial modules must:
+
+   a. use closed-loop chemical and thermal cycles;
+   b. manage exhaust and waste streams;
+   c. comply with dust and debris limits;
+   d. maintain emergency shutdown systems.
+
+3. The IFOC may require Operators to:
+
+   a. relocate modules;
+   b. reduce output;
+   c. suspend operations;
+   d. implement remediation measures.
+
+---
+
+## **Article 31 — Reporting, Verification, and Data Transparency**
+
+1. Operators must report:
+
+   a. extraction volumes;
+   b. composition analyses;
+   c. waste production;
+   d. refined material outputs;
+   e. byproduct management;
+   f. extraction-related incidents.
+
+2. Reports must be accurate, complete, and submitted at IFOC-set intervals.
+
+3. The IFOC may:
+
+   a. conduct random verification checks;
+   b. perform mass balance assessments;
+   c. audit telemetry and sensor logs;
+   d. deploy remote probes.
+
+4. Falsification of extraction data constitutes grounds for:
+
+   a. suspension;
+   b. financial penalties;
+   c. revocation of license;
+   d. liability claims.
+
+5. Aggregate extraction data shall be publicly accessible except for proprietary mineral-processing techniques.
+
+---
+
+## **Article 32 — Data Contribution Credits (DCCs)**
+
+1. Operators who submit high-value geological or structural data may receive **Data Contribution Credits (DCCs)** from the RLA.
+
+2. DCC-flagged data shall be:
+
+   a. archived in the ABIC public registry;
+   b. accessible to all Operators;
+   c. certified by RLA as reliable.
+
+3. Any Operator who relies on DCC-flagged data to obtain an Extraction License shall pay the DCC holder:
+
+   a. a royalty of up to 0.1% of annual Tonnage Fees;
+   b. for a period not exceeding ten years;
+   c. administered automatically via the ABIC Passport system.
+
+4. DCCs may be:
+
+   a. traded;
+   b. inherited by successor entities;
+   c. retired voluntarily.
+
+5. DCC fraud or data falsification is a major violation.
+
+---
+
+# **PART V — NUCLEAR POWER AND ENERGY SYSTEMS**
+
+## **Article 33 — Authorization and Deployment of Nuclear Power Units (NPUs)**
+
+1. NPUs may be deployed in ABIC operations only under:
+
+   a. a valid **NPU Lease Agreement** issued by the Space Reactor Authority (SRA);
+   b. compliance with IAEA-endorsed safety frameworks;
+   c. continuous SRA-verified telemetry;
+   d. redundant cooling, control, and containment systems.
+
+2. All NPUs deployed within ABIC shall be **exclusively owned by the SRA** and leased to Operators.
+   No Operator or State may privately own or directly fuel an NPU.
+
+3. Authorized NPUs shall be limited to:
+
+   a. certified modular fission reactors;
+   b. reactors designed for microgravity heat rejection;
+   c. reactors with passive shutdown capabilities;
+   d. reactors demonstrating fail-safe behavior under total power loss.
+
+4. Additional advanced reactor types, including:
+
+   a. fusion reactors,
+   b. antimatter-based reactors,
+   c. alternative energy-based reactors,
+
+   may be authorized only if they satisfy equivalent or higher safety standards and receive joint SRA–IAEA certification.
+
+5. NPUs may only operate using:
+
+   a. **High-Assay Low-Enriched Uranium (HALEU)**, or
+   b. universally certified proliferation-resistant fuel.
+
+6. The use of **Highly Enriched Uranium (HEU)** or weapons-grade fissile material is strictly prohibited.
+
+7. No NPU may be launched or activated without explicit clearance from:
+
+   a. the Operator's licensing Member State;
+   b. the IFOC Executive Council;
+   c. the SRA;
+   d. the IAEA orbital systems liaison office.
+
+---
+
+## **Article 34 — Construction, Shielding, and Operational Requirements**
+
+1. All NPUs must be constructed with:
+
+   a. dual-shell radiation shielding;
+   b. micrometeoroid-resistant outer layers;
+   c. passive heat rejection radiators;
+   d. emergency SCRAM functionality;
+   e. neutron-absorbing safety materials.
+
+2. NPUs operating near crewed installations must:
+
+   a. be mounted on trusses or booms to ensure distance-based attenuation;
+   b. include rotational shielding systems;
+   c. maintain automatic “safe orientation” protocols during emergencies.
+
+3. Reactor designs must:
+
+   a. prevent ejection of fission products;
+   b. operate within declared power envelopes;
+   c. prevent prompt criticality;
+   d. adhere to IFOC–IAEA joint safety standards;
+   e. include non-proliferation tracking at all fuel lifecycle stages.
+
+4. NPUs may not:
+
+   a. employ direct nuclear propulsion in active CanCorridors;
+   b. vent radioactive material;
+   c. operate without redundant cooling loops;
+   d. be used to heat or melt asteroid surfaces without RLA approval.
+
+---
+
+## **Article 35 — SRA–IAEA Cooperation and Oversight**
+
+1. The IFOC shall maintain formal cooperation with the **International Atomic Energy Agency (IAEA)** to ensure global nuclear safety and non-proliferation compliance.
+
+2. The IAEA shall:
+
+   a. co-review reactor designs;
+   b. co-inspect NPUs;
+   c. certify reactor fuel cycles;
+   d. verify nuclear materials accounting;
+   e. participate in post-incident investigations.
+
+3. All NPUs must be registered with:
+
+   a. the IFOC NPU Registry;
+   b. the IAEA Orbital Nuclear Facilities Register;
+   c. the SRA’s internal fuel accountability register.
+
+4. Operators must permit:
+
+   a. on-site reactor inspections;
+   b. remote diagnostic access;
+   c. nuclear material accounting audits;
+   d. verification of end-of-life pathways.
+
+5. The IAEA may issue binding advisories requiring:
+
+   a. increased monitoring;
+   b. reduced reactor output;
+   c. temporary suspension of operations;
+   d. adjusted shielding configurations.
+
+---
+
+## **Article 36 — Emergency Shutdown, Fail-Safe Mechanisms, and Passive Safety**
+
+1. All NPUs shall incorporate:
+
+   a. autonomous SCRAM functions;
+   b. remote SCRAM triggers accessible to both SRA and IFOC;
+   c. manual SCRAM controls for crew;
+   d. passive cooling systems operable without power input.
+
+2. An NPU shall automatically enter SCRAM if:
+
+   a. telemetry is lost for more than 120 seconds;
+   b. structural deformation is detected;
+   c. tether integrity at the host depot is compromised;
+   d. radiation emissions exceed safe thresholds;
+   e. rotational or trajectory anomalies endanger reactor stability.
+
+3. Operators must maintain:
+
+   a. emergency repair kits;
+   b. spare coolant loops;
+   c. robotic maintenance capability capable of vacuum-field operations.
+
+4. All NPUs must be capable of:
+
+   a. cold shutdown;
+   b. prolonged dormant operation;
+   c. safe transport to end-of-life pathways.
+
+---
+
+## **Article 37 — End-of-Life Disposal and Reactor Decommissioning**
+
+1. At end-of-life, NPUs shall be disposed of via:
+
+   a. transfer to a designated solar disposal trajectory;
+   b. relocation to an IFOC-certified safe storage orbit;
+   c. managed disassembly at an SRA-designated facility.
+
+2. NPUs may not be abandoned in orbit or affixed to asteroids without formal authorization.
+
+3. The SRA shall maintain full custody of nuclear materials throughout decommissioning and disposal.
+
+4. Operators remain responsible for cost contributions under the ABIC insurance pool and decommissioning fund.
+
+---
+
+## **Article 38 — Nuclear Incident Response and Containment**
+
+1. The IFOC shall operate a **Nuclear Incident Response Network (NIRN)**, consisting of:
+
+   a. trained emergency personnel;
+   b. robotic responders;
+   c. orbital containment drones;
+   d. reactor engineering specialists.
+
+2. Any suspected nuclear incident shall trigger:
+
+   a. immediate notification to the IFOC and SRA;
+   b. automatic SCRAM;
+   c. telemetry upload to the nuclear safety registry;
+   d. temporary shutdown of affected CanCorridors.
+
+3. Operators must fully cooperate with:
+
+   a. NIRN response teams;
+   b. radiation surveys;
+   c. safety investigations;
+   d. mandated remediation plans.
+
+4. The IFOC may impose:
+
+   a. reactor replacement orders;
+   b. financial penalties;
+   c. suspension from NPU leasing;
+   d. de-licensing of the Operator.
+
+5. Operators found to conceal or falsify nuclear information shall be subject to penalties under **PART XI**.
+
+---
+
+# **PART VI — LIABILITY, INSURANCE, AND FINANCIAL MECHANISMS**
+
+## **Article 39 — General Liability Principles**
+
+1. Operators are **strictly liable**, regardless of fault, for:
+
+   a. all Containers they launch or capture;
+   b. all tether systems they deploy;
+   c. rotovators they operate;
+   d. depots under their operational control;
+   e. NPUs leased to them from the SRA;
+   f. debris created through their activities;
+   g. extraction or processing actions that cause harm.
+
+2. Liability extends to:
+
+   a. damage to other Operators’ infrastructure;
+   b. damage to State-owned space assets;
+   c. personal injury or loss of life;
+   d. environmental impacts, including orbital contamination and celestial degradation.
+
+3. Member States retain **residual sovereign liability** for:
+
+   a. Operators they license;
+   b. NPUs assembled or fueled in their jurisdiction;
+   c. nuclear-related incidents or violations.
+
+4. Joint operations shall allocate liability proportionally based on:
+
+   a. operational control;
+   b. contributed energy or momentum;
+   c. role in the triggering failure.
+
+5. No Operator may contract out of liability obligations under this Convention.
+
+---
+
+## **Article 40 — The ABIC Global Insurance and Indemnity Pool (AGIIP)**
+
+1. All Operators must join the **ABIC Global Insurance and Indemnity Pool (AGIIP)**.
+
+2. Participation requires:
+
+   a. annual contributions;
+   b. throughput-based levies;
+   c. reactor-related premiums (if applicable);
+   d. a minimum collateral bond set by the Executive Council.
+
+3. AGIIP shall cover:
+
+   a. cargo loss;
+   b. tether failure;
+   c. rotovator incidents;
+   d. NPU incidents;
+   e. emergency response deployment;
+   f. environmental remediation;
+   g. liability judgments;
+   h. decommissioning costs where applicable.
+
+4. AGIIP may purchase:
+
+   a. reinsurance from terrestrial markets;
+   b. catastrophe bonds;
+   c. orbital risk derivatives;
+   d. liquidity guarantees from participating financial institutions.
+
+5. AGIIP shall undergo mandatory annual stress tests simulating:
+
+   a. simultaneous loss of two flagship depots;
+   b. catastrophic multi-corridor failure;
+   c. reactor incident compounding events.
+
+6. Shortfalls identified in stress tests shall be covered by:
+
+   a. standby letters of credit;
+   b. supplemental contributions from major Operators;
+   c. emergency appropriations by the Executive Council.
+
+7. AGIIP is jointly overseen by:
+
+   a. the IFOC;
+   b. insurance regulators of Member States;
+   c. an independent actuarial board.
+
+---
+
+## **Article 41 — Damage Compensation and Claims Procedures**
+
+1. Any Operator, State, or private party may file claims for:
+
+   a. operational losses;
+   b. infrastructure damage;
+   c. environmental harm;
+   d. personal injury.
+
+2. Claims shall be evaluated by the **Neutral Arbitration Panel (NAP)** in accordance with **PART XI**.
+
+3. NAP decisions are:
+
+   a. binding;
+   b. enforceable under international law;
+   c. subject only to procedural review.
+
+4. Penalties may include:
+
+   a. operational fines;
+   b. mandatory corrective actions;
+   c. suspension of Operator licenses;
+   d. increased AGIIP premiums;
+   e. temporary or permanent loss of CPS privileges.
+
+5. Repeat offenders may be:
+
+   a. downgraded in operational status;
+   b. barred from high-throughput corridors;
+   c. prohibited from NPU leasing;
+   d. expelled from ABIC participation.
+
+---
+
+## **Article 42 — Environmental Liability and Resource Restoration**
+
+1. Operators are responsible for contamination or degradation of:
+
+   a. orbital environments;
+   b. asteroid surfaces or interiors;
+   c. SPZs or historical scientific sites;
+   d. debris fields created by their operations.
+
+2. Environmental restoration shall include:
+
+   a. debris capture or cleanup;
+   b. stabilization of damaged asteroid structures;
+   c. radiation or chemical remediation;
+   d. safe disposal or containment of damaged NPUs.
+
+3. Operators who reduce terrestrial mining or ecological strain by substituting ABIC-sourced resources may earn:
+
+   a. Environmental Offset Credits (EOCs);
+   b. preferential scheduling in premium corridors;
+   c. tax benefits from participating States (optional, domestic).
+
+4. EOCs may be:
+
+   a. traded;
+   b. banked;
+   c. redeemed for lower AGIIP premiums;
+   d. retired to avoid double counting.
+
+---
+
+## **Article 43 — Force Majeure**
+
+1. Operators are not liable for losses resulting solely from:
+
+   a. solar storms;
+   b. micrometeoroid swarms;
+   c. deep-space gravitational anomalies;
+   d. non-Operator debris collisions;
+   e. unpredictable natural space hazards.
+
+2. To invoke force majeure, Operators must:
+
+   a. notify IFOC immediately;
+   b. submit evidence within 72 hours of restored communication;
+   c. permit inspection by the Space Weather and Hazard Bureau (SWHB);
+   d. demonstrate that the event could not reasonably have been mitigated.
+
+3. AGIIP may compensate affected parties under:
+
+   a. shared-risk provisions;
+   b. humanitarian exceptions;
+   c. emergency relief clauses.
+
+---
+
+## **Article 44 — Financial Transparency and Audits**
+
+1. Operators must maintain:
+
+   a. accurate throughput and cargo logs;
+   b. reactor fuel use records;
+   c. maintenance reports;
+   d. insurance disclosures;
+   e. financial statements relevant to risk assessment.
+
+2. The Financial Compliance Office (FCO) may audit:
+
+   a. throughput;
+   b. mass flow;
+   c. depots and rotovators;
+   d. NPU use;
+   e. AGIIP claims;
+   f. DCC and EOC allocations.
+
+3. Fraud, concealment, or falsification may result in:
+
+   a. suspension of operations;
+   b. criminal referral in the State of jurisdiction;
+   c. seizure of posted collateral bonds;
+   d. permanent revocation of Operator status.
+
+---
+
+## **Article 45 — The Risk and Reward Allocation Model (RRAM)**
+
+1. To incentivize responsible behavior:
+
+   Operators with clean safety and compliance records shall earn:
+
+   a. reduced insurance premiums;
+   b. priority access to profitable corridors;
+   c. reduced licensing fees;
+   d. eligibility for Corridor Priority Status (CPS).
+
+2. Operators with repeated violations shall face:
+
+   a. higher premiums;
+   b. restricted access;
+   c. emergency operational audits;
+   d. corrective action plans.
+
+3. Innovators who contribute improvements in:
+
+   a. tether materials;
+   b. rotovator safety systems;
+   c. reactor containment;
+   d. telemetry technologies;
+
+   shall receive:
+
+   a. **Innovation Credits (ICs)**;
+   b. reduced overhead fees;
+   c. guaranteed access to research corridors.
+
+4. The **Equity Participation Fund (EPF)** ensures emerging spacefaring nations gain proportional equity by:
+
+   a. contributing workforce, training, or infrastructure;
+   b. receiving dividend allocations;
+   c. participating in depot co-ownership structures;
+   d. receiving CPS-equivalent privileges under defined conditions.
+
+---
+
+# **PART VII — ACCESS, EQUITY, AND EMERGING SPACE NATIONS**
+
+## **Article 46 — Universal Access Principle**
+
+1. All Member States shall have **non-discriminatory access** to:
+
+   a. ABIC transport corridors;
+   b. certified depots;
+   c. rotovator capture windows;
+   d. training and certification programs;
+   e. the ABIC Passport system.
+
+2. Access is guaranteed regardless of:
+
+   a. economic development level;
+   b. political alignment;
+   c. existing space capability;
+
+   provided that the Member State satisfies IFOC safety and compliance requirements.
+
+3. Operators may not impose:
+
+   a. unilateral surcharges;
+   b. exclusionary conditions;
+   c. corridor blockages;
+
+   except as authorized under IFOC standards for safety or congestion management.
+
+---
+
+## **Article 47 — Fair Market Pricing**
+
+1. Pricing for ABIC services—including launch, catch, storage, transfer, refining, and processing—must reflect:
+
+   a. cost of energy;
+   b. maintenance and infrastructure fees;
+   c. insurance and liability contributions;
+   d. throughput constraints;
+   e. congestion pricing where applicable.
+
+2. Differential pricing is permitted only for:
+
+   a. priority access windows;
+   b. emergency operations;
+   c. hazardous or unstable materials;
+   d. oversized or low-stability cargo.
+
+3. Pricing schedules must be:
+
+   a. published in standardized digital format;
+   b. available in all six official UN languages;
+   c. announced 30 days prior to implementation.
+
+4. Price discrimination or anti-competitive pricing is prohibited.
+
+---
+
+## **Article 48 — Inclusion of Emerging Space Nations**
+
+1. The IFOC shall establish and maintain a **Spacefaring Capability Acceleration Program (SCAP)** to support emerging spacefaring nations.
+
+2. SCAP shall provide:
+
+   a. engineering and regulatory training programs;
+   b. discounted initial licensing fees;
+   c. access to Belt Ark shared modules;
+   d. joint-research opportunities;
+   e. simulator and depot rotational internships;
+   f. mentorship by experienced Operators.
+
+3. SCAP trainees may be seconded to:
+
+   a. tether and rotovator teams;
+   b. processing depots;
+   c. NPU maintenance teams;
+   d. SRA safety centers.
+
+4. SCAP shall publish an **annual progress report** assessing:
+
+   a. each participating nation’s development;
+   b. transfer of skills and technology;
+   c. compliance with safety standards;
+   d. measurable economic and scientific impacts.
+
+---
+
+## **Article 49 — Cooperative Equity Participation (EPF)**
+
+1. All Member States shall contribute to an **Equity Participation Fund (EPF)** designed to distribute ownership benefits equitably.
+
+2. EPF revenues derive from:
+
+   a. a 0.5% levy on total corridor throughput;
+   b. a share of AGIIP’s investment income;
+   c. licensing fees;
+   d. orbital resource royalties;
+   e. CPS access auctions.
+
+3. EPF proceeds shall be distributed through:
+
+   a. equity shares in Belt Ark depots;
+   b. co-ownership stakes in NPU clusters;
+   c. revenue dividends based on participation;
+   d. infrastructure development grants to emerging States.
+
+4. Nations with limited capacity may pool EPF shares to form:
+
+   a. regional space blocs;
+   b. shared operating consortia.
+
+5. Any bloc of **eight or more emerging nations** holding at least **2% of EPF aggregate equity** shall be entitled to designate a **non-voting Observer** to the Executive Council.
+
+---
+
+## **Article 50 — Educational and Workforce Development**
+
+1. All Operators must allocate **1% of annual operational hours** to:
+
+   a. training interns;
+   b. supporting new entrant nations;
+   c. hosting technical workshops and lectures;
+   d. enabling remote learning modules.
+
+2. IFOC shall provide:
+
+   a. multilingual training materials;
+   b. scholarship programs;
+   c. open-access technical manuals;
+   d. ABIC Passport simulation software for students.
+
+3. Depots shall reserve:
+
+   a. simulator time;
+   b. redundant workstation access;
+   c. physical and virtual classroom infrastructure.
+
+---
+
+## **Article 51 — Anti-Monopoly and Anti-Exclusion Measures**
+
+1. No State or Operator may control:
+
+   a. more than **40%** of total ABIC throughput;
+   b. more than **25%** of any single CanCorridor;
+   c. more than **two** flagship Belt Ark depots.
+
+2. The IFOC may mandate:
+
+   a. operational divestiture;
+   b. corridor sharing;
+   c. emergency leasing of capacity;
+
+   if monopoly thresholds are violated or imminently threatened.
+
+3. Market manipulation—including:
+
+   a. artificial congestion,
+   b. predatory pricing,
+   c. corridor obstruction—
+
+   is prohibited and subject to penalties under **PART XI**.
+
+---
+
+## **Article 52 — Priority Access Windows**
+
+1. IFOC shall reserve **5% of annual corridor capacity** for:
+
+   a. humanitarian missions;
+   b. planetary defense operations;
+   c. emergency response cargo;
+   d. United Nations-mandated relief efforts.
+
+2. Priority access for humanitarian and planetary defense missions shall be free of charge, except for telemetry and basic safety costs.
+
+3. For commercial Operators:
+
+   a. priority windows may be auctioned;
+   b. proceeds will be split between EPF and AGIIP;
+   c. Operators who win priority access may not resell or transfer their slots without IFOC approval.
+
+---
+
+## **Article 53 — Technology Sharing and Open Standards Compliance**
+
+1. All core ABIC systems must comply with:
+
+   a. public tether interface specifications;
+   b. standardized depot telemetry protocols;
+   c. published rotovator timing standards;
+   d. NPU safety and containment specifications.
+
+2. Proprietary design improvements:
+
+   a. may be privately held;
+   b. must remain backward compatible;
+   c. must not create exclusionary market control;
+   d. must be reviewable by TSB for safety compliance.
+
+3. The **Open Standards Office (OSO)** shall:
+
+   a. publish all interoperable standards;
+   b. certify implementation;
+   c. maintain a free and open-access standards database.
+
+---
+
+## **Article 54 — Equitable Access to Asteroid Resources**
+
+1. Asteroid resources shall be treated as:
+
+   a. non-appropriable under sovereignty;
+   b. extractable under equitable and sustainable use;
+   c. subject to IFOC authorization and oversight.
+
+2. Extraction rights shall be allocated according to:
+
+   a. technical feasibility;
+   b. environmental impact scores;
+   c. equitable rotation among applicants;
+   d. contributions to DCCs and scientific understanding.
+
+3. Resource nodes with high scientific value may be:
+
+   a. protected under SPZ designation;
+   b. restricted to scientific missions;
+   c. subject to special permits.
+
+4. Operators must submit to the public registry:
+
+   a. geological data;
+   b. assay results;
+   c. extraction impact logs;
+   d. structural analyses;
+
+   subject to proprietary exceptions not relevant to safety.
+
+---
+
+# **PART VIII — ENVIRONMENTAL STEWARDSHIP OF ORBITAL AND CELESTIAL DOMAINS**
+
+## **Article 55 — General Environmental Obligations**
+
+1. All ABIC operations shall prioritize:
+
+   a. minimization of orbital debris;
+   b. protection of scientifically significant sites;
+   c. preservation of asteroid structural integrity;
+   d. long-term sustainability of resource extraction;
+   e. reduction of terrestrial environmental burdens through ABIC substitution.
+
+2. Member States and Operators reaffirm that:
+
+   a. celestial bodies constitute the common heritage of humankind;
+   b. extraction is permitted only under equitable and sustainable use;
+   c. exclusive territorial claims or sovereignty assertions are prohibited.
+
+3. Environmental stewardship objectives shall be reviewed every **five years** by the Assembly, informed by:
+
+   a. scientific assessments;
+   b. IFOC environmental reports;
+   c. SWHB hazard analyses;
+   d. SPZ compliance data.
+
+---
+
+## **Article 56 — Orbital Debris Mitigation**
+
+1. Operators must comply with:
+
+   a. Orbital Debris Prevention Standard (ODPS-1);
+   b. Tether Capture Safety Standard (TCSS-3);
+   c. Depot Collision Avoidance Protocol (DCAP-2);
+   d. any relevant future Annexes adopted under Part XII.
+
+2. Operators must:
+
+   a. track all objects >1 cm produced by their operations;
+   b. publish debris logs to the public registry;
+   c. maintain real-time telemetry for all active system components.
+
+3. If debris >1 cm is created by an Operator’s action:
+
+   a. immediate notification to IFOC is required;
+   b. a remediation plan must be submitted within 48 hours;
+   c. cleanup must occur within **180 days**, unless otherwise authorized.
+
+4. Failure to remediate debris may result in:
+
+   a. fines;
+   b. suspension from corridor access;
+   c. increased AGIIP premiums;
+   d. loss of Operator license;
+   e. penalties under **PART XI**.
+
+---
+
+## **Article 57 — Protection of Scientific and Historical Sites**
+
+1. The IFOC shall maintain a global registry of:
+
+   a. high-value scientific asteroids;
+   b. celestial bodies with fragile structural integrity;
+   c. historical landing or probe sites;
+   d. prebiotic or astrobiological significance indicators.
+
+2. Activities within **100 km** of registered sites require:
+
+   a. special environmental permits;
+   b. multi-State scientific review;
+   c. continuous monitoring of disturbances.
+
+3. Disturbance or contamination of protected sites shall be treated as:
+
+   a. a major environmental violation;
+   b. subject to maximum penalties;
+   c. grounds for permanent license revocation.
+
+---
+
+## **Article 58 — Limits on Resource Extraction**
+
+1. Mining operations shall not:
+
+   a. destabilize asteroid spin beyond safe limits;
+   b. alter orbital paths without authorization;
+   c. fragment bodies into hazardous debris fields;
+   d. compromise adjacent SPZs.
+
+2. Operators must adhere to:
+
+   a. Stability Assessment Protocol (SAP-5);
+   b. Material Balance Report (MBR-2);
+   c. Tether Interaction Safety Standard (TISS-1).
+
+3. Maximum annual extraction mass from a single asteroid shall be:
+
+   a. **3%** of total mass for bodies <1 km diameter;
+   b. **1%** for bodies ≥1 km;
+
+   unless a variance is approved by the RLA after enhanced EIA review.
+
+4. Operators must submit:
+
+   a. pre-extraction impact assessments;
+   b. post-extraction mass balance sheets;
+   c. structural integrity reports;
+   d. updated SPZ adjacency analyses.
+
+---
+
+## **Article 59 — Contamination and Planetary Protection**
+
+1. All ABIC equipment and operations must comply with:
+
+   a. planetary protection Category IV standards;
+   b. Microbial Transfer Protocol (MTP-9);
+   c. contamination prevention Annexes adopted by the Assembly.
+
+2. Contamination includes:
+
+   a. terrestrial biological materials;
+   b. chemical pollutants;
+   c. uncontained reactor materials;
+   d. unintended atmospheric residue.
+
+3. Operators must immediately report:
+
+   a. suspected biological transfer;
+   b. chemical leaks;
+   c. reactor containment breaches;
+   d. contamination affecting SPZs.
+
+4. Required remediation may include:
+
+   a. chemical neutralization;
+   b. heat sterilization;
+   c. vacuum exposure;
+   d. removal of contaminated regolith.
+
+---
+
+## **Article 60 — Reactor and Energy Safety Zones**
+
+1. NPUs must establish:
+
+   a. a **25 km no-approach radius** for all non-essential spacecraft;
+   b. a **200 km restricted zone** around depots hosting NPUs, unless modified by SRA.
+
+2. NPUs must comply with:
+
+   a. Nuclear Protection Standard (NPS-7);
+   b. Fail-Safe Shutdown Protocol (FS-9);
+   c. Telemetry Broadcast Requirement (TBR-4);
+   d. radiation safety Annexes adopted by the Assembly.
+
+3. Accidents involving NPUs shall trigger:
+
+   a. automatic SRA/IFOC emergency review;
+   b. immediate shutdown of affected CanCorridors;
+   c. AGIIP emergency activation.
+
+---
+
+## **Article 61 — Resource Conservation and Offset Credits**
+
+1. Operators reducing terrestrial mining impacts via ABIC-sourced materials may earn:
+
+   a. Environmental Offset Credits (EOCs);
+   b. preferential corridor scheduling;
+   c. reduced AGIIP premiums;
+   d. tax or credit benefits offered domestically by Member States.
+
+2. EOCs are awarded based on:
+
+   a. delivered mass;
+   b. net carbon reduction;
+   c. ecological displacement avoided;
+   d. demonstrated substitution effect.
+
+3. EOCs may be:
+
+   a. traded;
+   b. saved;
+   c. redeemed;
+   d. retired.
+
+---
+
+## **Article 62 — Environmental Audits**
+
+1. Annual environmental audits shall be conducted for:
+
+   a. each Operator;
+   b. each depot;
+   c. each extraction site;
+   d. each NPU cluster.
+
+2. The IFOC may carry out:
+
+   a. scheduled inspections;
+   b. unannounced inspections;
+   c. third-party scientific reviews;
+   d. remote sensing investigations.
+
+3. Audit reports shall be integrated into:
+
+   a. the public registry;
+   b. AGIIP risk models;
+   c. Operator compliance scores;
+   d. SPZ management updates.
+
+---
+
+## **Article 63 — Environmental Dispute Resolution**
+
+1. Environmental disputes shall be handled by:
+
+   a. the Neutral Arbitration Panel (NAP);
+   b. the Environmental Review Board (ERB).
+
+2. ERB decisions:
+
+   a. are binding;
+   b. enforceable;
+   c. subject only to procedural appeal.
+
+3. Penalties for major violations may include:
+
+   a. fines up to **500 million credits**;
+   b. loss of extraction license;
+   c. mandatory remediation;
+   d. exclusion from ABIC corridors;
+   e. removal of CPS privileges;
+   f. suspension under **PART XI**.
+
+---
+
+# **PART IX — AMENDMENTS, ARBITRATION, AND WITHDRAWAL**
+
+## **Article 64 — Amendment Procedures**
+
+1. Any Member State may propose amendments to this Convention.
+
+2. Proposed amendments must be:
+
+   a. submitted in writing to the Secretariat;
+   b. circulated to all Member States within **30 days**;
+   c. placed on the agenda of the next Review Summit or Special Session of the Assembly.
+
+3. Amendments shall be adopted upon:
+
+   a. a **two-thirds majority** vote of all Member States; and
+   b. ratification by Member States accounting for at least **60% of total ABIC throughput** during the previous three years.
+
+4. Amendments shall enter into force:
+
+   a. **180 days** after the threshold in paragraph 3 is met; or
+   b. immediately for any State that explicitly accepts the amendment earlier.
+
+5. States may submit:
+
+   a. interpretive declarations;
+   b. reservations that do **not** undermine safety, transparency, or equitable access;
+
+   subject to review by the IFOC for compatibility with the object and purpose of the Convention.
+
+---
+
+## **Article 65 — Emergency Amendments**
+
+1. Emergency amendments may be adopted when:
+
+   a. imminent threats to life exist;
+   b. major NPU failures occur;
+   c. catastrophic tether, rotovator, or depot failures occur;
+   d. rogue or harmful interference with ABIC infrastructure is detected;
+   e. severe orbital debris events threaten system continuity.
+
+2. Emergency amendments require:
+
+   a. a **75% vote** of all Member States; and
+   b. a majority of Operators, weighted by throughput contribution.
+
+3. Emergency amendments take effect **immediately** upon adoption.
+
+4. Emergency amendments expire after **24 months** unless:
+
+   a. ratified under Article 64; or
+   b. renewed by a two-thirds majority vote.
+
+---
+
+## **Article 66 — Arbitration Procedures**
+
+1. Disputes arising under this Convention shall be resolved through:
+
+   a. negotiation;
+   b. mediation;
+   c. arbitration under this Article.
+
+2. Arbitration shall be conducted by the **Neutral Arbitration Panel (NAP)**.
+
+3. The NAP shall consist of **five arbitrators** appointed by the Assembly, representing:
+
+   a. legal expertise;
+   b. scientific expertise;
+   c. engineering expertise;
+   d. operational safety expertise;
+   e. environmental protection expertise.
+
+4. Arbitration procedures shall include:
+
+   a. written submissions;
+   b. disclosure of evidence;
+   c. public hearings unless confidentiality is required for safety or security;
+   d. expert testimony;
+   e. published final decisions.
+
+5. NAP decisions are:
+
+   a. final;
+   b. binding;
+   c. enforceable under international law and the terms of this Convention.
+
+6. Failure to comply shall result in measures outlined in **PART XI — Enforcement and Compliance Measures**.
+
+---
+
+## **Article 67 — Technical Dispute Resolution**
+
+1. Technical disputes involving:
+
+   a. engineering standards;
+   b. telemetry integrity;
+   c. interface compatibility;
+   d. safety margin calculations;
+   e. NPU containment or design requirements;
+
+   shall be referred to the **Technical Standards Council (TSC)**.
+
+2. The TSC may:
+
+   a. convene expert subcommittees;
+   b. request simulations or modeling;
+   c. demand access to Operator telemetry or logs;
+   d. impose interim operating limits;
+   e. require temporary halts pending review.
+
+3. TSC decisions may be appealed solely:
+
+   a. on procedural grounds;
+   b. to the NAP.
+
+---
+
+## **Article 68 — Operator–State Disputes**
+
+1. Disputes between Operators and Member States shall be adjudicated by the NAP unless:
+
+   a. national sovereignty is implicated;
+   b. classified national security issues arise;
+   c. the dispute concerns interpretation of domestic law.
+
+2. Where sovereignty is implicated:
+
+   a. parties must first attempt bilateral negotiation;
+   b. the IFOC may serve as mediator;
+   c. unresolved disputes may be referred to the International Court of Justice (ICJ) by mutual consent.
+
+---
+
+## **Article 69 — Suspension of Rights**
+
+1. A Member State or Operator may be suspended from participation in ABIC infrastructure for:
+
+   a. repeated safety violations;
+   b. intentional obstruction of CanCorridors;
+   c. concealment or misreporting of reactor activity;
+   d. unauthorized extraction within SPZs;
+   e. major failures to comply with environmental requirements;
+   f. persistent non-payment of AGIIP contributions.
+
+2. Suspension requires:
+
+   a. a majority vote of the Assembly; and
+   b. concurrence of the TSC for technical grounds.
+
+3. Suspension may be lifted upon:
+
+   a. corrective action;
+   b. payment of outstanding fines or remediation costs;
+   c. verification of full compliance;
+   d. demonstration of improved safety management systems.
+
+---
+
+## **Article 70 — Withdrawal from the Convention**
+
+1. A Member State may withdraw from this Convention after:
+
+   a. submitting written notice to the IFOC;
+   b. observing a **24-month waiting period**, which may be shortened to **12 months** by Assembly vote in cases of extraordinary national circumstances;
+   c. fulfilling all outstanding obligations and liabilities.
+
+2. During the waiting period:
+
+   a. the State retains all treaty responsibilities;
+   b. ABIC participation continues normally;
+   c. no new long-term extraction or NPU leases may be granted to its Operators.
+
+3. A withdrawing State must:
+
+   a. safely decommission or transfer its NPUs to SRA custody;
+   b. settle all insurance obligations;
+   c. transfer dependent infrastructure to a neutral Manager State or to the IFOC.
+
+4. Upon withdrawal:
+
+   a. the State loses all ABIC access rights;
+   b. its Operators become third-party, non-Member entities;
+   c. its EPF equity shares are frozen;
+   d. CPS rights are terminated.
+
+---
+
+## **Article 71 — Continuity of Obligations**
+
+1. Withdrawal shall not affect:
+
+   a. pre-existing liabilities;
+   b. ongoing environmental remediation obligations;
+   c. outstanding insurance contributions;
+   d. pending claims under NAP or ERB review.
+
+2. All outstanding legal and financial obligations remain enforceable under **PART XI**.
+
+---
+
+Continuing with **PART X — FINAL PROVISIONS AND DEPOSITARY CLAUSES**, followed by **PART XI — ENFORCEMENT AND COMPLIANCE MEASURES**, and then **PART XII — ANNEXES**.
+These parts complete the unified treaty.
+
+---
+
+# **PART X — FINAL PROVISIONS AND DEPOSITARY CLAUSES**
+
+## **Article 72 — Signature**
+
+1. This Convention shall be open for signature by all States at:
+
+   a. the United Nations Office at Geneva; and
+   b. any additional venue designated by the Depositary.
+
+2. States may sign:
+
+   a. unconditionally; or
+   b. subject to ratification, acceptance, or approval.
+
+3. Signature alone shall not create binding obligations until the State completes its ratification, acceptance, or approval procedure.
+
+---
+
+## **Article 73 — Ratification, Acceptance, and Approval**
+
+1. This Convention shall be subject to:
+
+   a. ratification;
+   b. acceptance; or
+   c. approval
+   by signatory States according to their constitutional procedures.
+
+2. Instruments of ratification, acceptance, or approval shall be:
+
+   a. deposited with the Depositary;
+   b. recorded in the United Nations Treaty Collection.
+
+3. Private Operators are bound by this Convention through:
+
+   a. licensing by their Member State;
+   b. compliance with IFOC regulations;
+   c. adherence to ABIC operational standards.
+
+---
+
+## **Article 74 — Accession**
+
+1. After its entry into force, any State may accede to this Convention.
+
+2. Instruments of accession shall be deposited with the Depositary.
+
+3. Accession confers identical rights and obligations as ratification.
+
+4. Operators from acceding States may participate in ABIC operations upon:
+
+   a. compliance with technical standards;
+   b. fulfillment of AGIIP insurance requirements;
+   c. inspection of NPUs and depots by IFOC and SRA.
+
+---
+
+## **Article 75 — Entry Into Force**
+
+1. This Convention shall enter into force **90 days** after:
+
+   a. ratification by at least **five** States that have conducted an independent orbital mission within the preceding decade; and
+   b. registration with the United Nations Treaty Collection.
+
+2. For each State ratifying or acceding thereafter:
+
+   a. the Convention enters into force **60 days** after deposit of its instrument.
+
+3. No ABIC infrastructure may be commissioned prior to entry into force.
+
+---
+
+## **Article 76 — Relationship with Other Treaties**
+
+1. Nothing in this Convention shall be interpreted as:
+
+   a. superseding the Outer Space Treaty (1967);
+   b. modifying the Liability Convention (1972);
+   c. altering obligations under the Nuclear Non-Proliferation Treaty (1968);
+   d. undermining planetary protection standards adopted by COSPAR.
+
+2. In cases of conflict:
+
+   a. this Convention shall be interpreted in favor of peaceful use and safety;
+   b. the interpretation most protective of transparency and environmental integrity shall prevail.
+
+3. Bilateral agreements may supplement but not contradict this Convention.
+
+---
+
+## **Article 77 — Depositary**
+
+1. The Secretary-General of the United Nations shall serve as Depositary.
+
+2. The Depositary shall:
+
+   a. receive instruments of ratification, accession, and withdrawal;
+   b. publish certified copies;
+   c. register this Convention under Article 102 of the UN Charter;
+   d. maintain authentic texts in all authorized languages;
+   e. notify all Member States of signatures, accessions, amendments, and withdrawals.
+
+---
+
+## **Article 78 — Authentic Texts**
+
+1. The authentic texts of this Convention shall be in:
+
+   a. Arabic;
+   b. Chinese;
+   c. English;
+   d. French;
+   e. Russian;
+   f. Spanish;
+
+   and shall include a machine-readable Unicode plain-text version for digital systems.
+
+2. Additional authentic language versions may be adopted by a **two-thirds vote** of the Assembly, provided they are certified as faithful translations.
+
+3. In case of interpretive divergence:
+
+   a. the English and French versions shall be authoritative;
+   b. Technical Annexes shall govern engineering definitions;
+   c. IFOC standards shall govern operational protocols.
+
+---
+
+## **Article 79 — Annexes and Protocols**
+
+1. Annexes and Protocols form an integral part of this Convention.
+
+2. Annexes may include:
+
+   a. tether and rotovator standards;
+   b. NPU safety specifications;
+   c. debris mitigation procedures;
+   d. inspection regimes;
+   e. accounting, insurance, and auditing guidelines;
+   f. NPU end-of-life disposal procedures;
+   g. ABIC Passport technical specifications.
+
+3. Annexes may be:
+
+   a. added;
+   b. amended;
+   c. updated
+   by a **two-thirds vote** of the Assembly without requiring a full treaty amendment.
+
+4. Initial Annexes A–F shall be adopted at the first Assembly session following entry into force.
+
+---
+
+## **Article 80 — Reservations**
+
+1. Reservations may be made unless:
+
+   a. incompatible with the object and purpose of the Convention;
+   b. undermining safety, transparency, or equitable access;
+   c. creating risk of environmental harm;
+   d. weakening NPU or debris mitigation standards.
+
+2. IFOC shall evaluate:
+
+   a. admissibility;
+   b. operational risk;
+   c. required mitigation conditions.
+
+3. Invalid reservations shall have no legal effect.
+
+---
+
+## **Article 81 — Duration and Extension**
+
+1. This Convention is concluded for an initial term of **50 years**.
+
+2. It shall automatically renew for successive **20-year terms** unless:
+
+   a. a **two-thirds** vote decides otherwise; or
+   b. a comprehensive replacement convention enters into force.
+
+---
+
+## **Article 82 — Authenticity of Digital and Physical Versions**
+
+1. Official treaty copies may exist as:
+
+   a. digitally signed documents;
+   b. physically sealed texts;
+   c. distributed cryptographic registries certified by the IFOC.
+
+2. In case of discrepancy:
+
+   a. physically sealed originals govern;
+   b. then cryptographically registered versions;
+   c. then digitally signed versions.
+
+---
+
+## **Article 83 — ABIC Passport System**
+
+1. Every ABIC container shall carry an **ABIC Passport**—a digital, secure identifier using QR/NFC/blockchain-verified credentials.
+
+2. The Passport shall:
+
+   a. file manifests automatically;
+   b. process levies and fees in real-time;
+   c. update EPF dividend calculations;
+   d. track DCC and EOC attributions;
+   e. log full transit telemetry to the public registry.
+
+3. The Passport system shall be interoperable with:
+
+   a. national customs systems;
+   b. insurance and liability records;
+   c. AGIIP and EPF databases.
+
+4. The Secretariat shall administer and maintain the ABIC Passport system to ensure equitable access.
+
+---
+
+# **PART XI — ENFORCEMENT AND COMPLIANCE MEASURES**
+
+## **Article 84 — General Enforcement Principles**
+
+1. Enforcement under this Convention shall be:
+
+   a. neutral;
+   b. technocratic;
+   c. proportionate;
+   d. transparent;
+   e. consistent across all Operators and States.
+
+2. Penalties shall prioritize:
+
+   a. safety restoration;
+   b. environmental remediation;
+   c. prevention of recurrence;
+   d. system-wide risk reduction.
+
+---
+
+## **Article 85 — Automatic “Red Flag” Safety Suspension**
+
+1. Any Operator failing to report:
+
+   a. tether break events;
+   b. near-miss collisions;
+   c. critical telemetry deviations;
+   d. rotovator capture anomalies;
+
+   within required timeframes shall immediately receive a **Red Flag Status**.
+
+2. Red Flag Status entails:
+
+   a. suspension of all Orbital Traffic Registry (OTR) clearances;
+   b. denial of access to all CanCorridors;
+   c. prohibition on depot capture operations;
+   d. mandatory safety review.
+
+3. Red Flag Status remains in effect until:
+
+   a. corrective action is verified;
+   b. the NAP rules on the infraction.
+
+---
+
+## **Article 86 — NPU Oversight and Fuel Safeguards**
+
+1. Only the Space Reactor Authority (SRA) may own or operate NPUs.
+
+2. All NPUs must:
+
+   a. use **HALEU or equivalent proliferation-resistant fuel**;
+   b. avoid HEU or weapons-grade material;
+   c. allow remote SCRAM access by SRA and IFOC;
+   d. undergo continuous telemetry monitoring.
+
+3. Any concealment or misreporting of reactor status triggers:
+
+   a. immediate SCRAM;
+   b. full SRA investigation;
+   c. suspension of Operator NPU privileges.
+
+---
+
+## **Article 87 — Insurance Collateral Drawdown**
+
+1. Upon a binding NAP decision finding an Operator non-compliant, financial penalties shall be:
+
+   a. **automatically drawn** from the Operator's AGIIP collateral bond;
+   b. applied before any other legal or diplomatic recourse.
+
+2. This mechanism shall apply to:
+
+   a. debris remediation failures;
+   b. anti-monopoly violations;
+   c. unreported incidents;
+   d. SPZ violations;
+   e. contamination events.
+
+---
+
+## **Article 88 — Corridor Priority Status (CPS) Enforcement**
+
+1. Operators may earn CPS by voluntarily exceeding minimum regulatory standards.
+
+2. CPS may be suspended or revoked for:
+
+   a. safety violations;
+   b. failure to share required data;
+   c. obstruction of equitable access;
+   d. repeated operational negligence.
+
+3. Revocation of CPS does not require full suspension from ABIC, unless additional violations apply.
+
+---
+
+## **Article 89 — Anti-Monopoly Enforcement**
+
+1. Violations of Article 51 (monopoly limits) shall trigger:
+
+   a. mandatory divestiture;
+   b. forced operational sharing;
+   c. emergency leasing of capacity.
+
+2. Operators found guilty of market manipulation shall face:
+
+   a. maximum fines;
+   b. loss of CPS privileges;
+   c. referral to NAP for further sanctions.
+
+---
+
+## **Article 90 — Environmental Enforcement**
+
+1. Major violations—including SPZ disturbance, contamination, and debris generation—shall result in:
+
+   a. financial penalties up to **500 million credits**;
+   b. mandatory remediation;
+   c. extraction license revocation;
+   d. suspension from ABIC operations.
+
+2. Severe or repeated violations may result in:
+
+   a. permanent exclusion from ABIC;
+   b. forfeiture of EPF equity shares;
+   c. blacklisting from NPU operation eligibility.
+
+---
+
+## **Article 91 — Suspension and Expulsion**
+
+1. The Assembly may suspend or expel:
+
+   a. Operators;
+   b. Member States;
+
+   for high-risk or deliberate violations.
+
+2. Expulsion requires:
+
+   a. two-thirds Assembly vote;
+   b. supporting opinion from the TSC and ERB.
+
+---
+
+# **PART XII — ANNEXES**
+
+## **Article 92 — Structure and Authority of Annexes**
+
+1. Annexes form an integral part of this Convention and possess equal legal force.
+
+2. Annexes may contain:
+
+   a. technical specifications;
+   b. operational protocols;
+   c. safety standards;
+   d. inspection regimes;
+   e. environmental and reactor guidelines.
+
+3. Annexes may be updated by **two-thirds vote** of the Assembly.
+
+4. Initial Annexes shall include:
+
+   **Annex A** — Tether and Rotovator Standards
+   **Annex B** — NPU Safety Specifications
+   **Annex C** — Orbital Debris Mitigation Protocols
+   **Annex D** — Inspection and Compliance Procedures
+   **Annex E** — Accounting, Insurance, and EPF Guidelines
+   **Annex F** — ABIC Passport Technical Architecture
+
+5. Additional Annexes may be adopted as needed.
+
+---
+
+Article 93 — Final Clause
+
+IN WITNESS WHEREOF, the undersigned, being duly authorized thereto by their respective Governments, have signed this Framework Convention on the Governance and Operation of the Asteroid Belt Industrial Corridor (ABIC).
+
+DONE AT GENEVA, this ______ day of ____________, 20,
+in six equally authentic language versions:
+Arabic, Chinese, English, French, Russian, and Spanish.
+
+The original text shall be deposited with the Secretary-General of the United Nations, who shall transmit certified copies to all Member States in accordance with Article 77 of this Convention.

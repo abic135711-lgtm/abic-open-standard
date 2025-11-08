@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><body>
+<h2>Live ABIC Calculator</h2>
+<p>Change the MW number → watch tons-per-day update instantly.</p>
+<input type="number" id="mw" value="10" onchange="calc()">
+<span id="out"></span> tons/day (Bulk lane)<br><br>
+<script>
+function calc(){
+  let mw = document.getElementById('mw').value;
+  let tpd = (mw * 24) / 27.5;  // 27.5 MWh per ton (your exact number)
+  document.getElementById('out').innerHTML = tpd.toFixed(1);
+} calc();
+</script>
+<button onclick="navigator.clipboard.writeText(location.href)">
+  Click to copy this link & share proof
+</button>
+</body></html>

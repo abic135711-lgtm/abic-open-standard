@@ -1,0 +1,208 @@
+
+# ✅ **ABIC-LITE **
+
+## **FRAMEWORK CONVENTION ON THE ASTEROID BELT INDUSTRIAL CORRIDOR (ABIC-LITE)**
+
+*Abridged Edition for Signature and Ratification*
+(22 Pages in Standard UN Layout)
+
+---
+
+# **PART I — PURPOSE AND PRINCIPLES**
+
+### **Article 1 — Purpose**
+
+The Parties establish the Asteroid Belt Industrial Corridor (ABIC) as a cooperative framework for safe, transparent, and non-sovereign logistics and industrial activity in the Main Asteroid Belt, consistent with international space law.
+
+### **Article 2 — Guiding Principles**
+
+1. Freedom of exploration and use of outer space.
+2. Prohibition of sovereignty claims over celestial bodies.
+3. Safety, transparency, and environmental stewardship.
+4. Open standards, open telemetry, and verifiable conduct.
+5. No compulsory taxation, tariffs, or economic transfers.
+6. Equal access for all States on a non-exclusive basis.
+
+### **Article 3 — Non-Appropriation and Open Access**
+
+Activities in the ABIC shall not constitute territorial claims, exclusive zones, or barriers to access. No Party or Operator shall restrict peaceful use of any celestial body.
+
+---
+
+# **PART II — DEFINITIONS**
+
+### **Article 4 — Definitions**
+
+For this Convention:
+(a) “Operator” means any commercial, governmental, academic, or non-profit entity authorized by a Party.
+(b) “Node” means any ABIC-registered facility for logistics, reboost, processing, storage, or industrial activity.
+(c) “NPU” means a Nuclear Power Unit operated under ABIC-SRA authority.
+(d) “SRA” means the Safety & Reactor Authority established by this Convention.
+(e) “DCC” means Data-Credit Certificates used for equity compensation.
+(f) “TEC” means Telemetry Equity Credits issued under Article 16 bis.
+(g) “Telemetry” means non-proprietary safety, position, and hazard data required for transparency.
+(h) “Catcher” means any ABIC-compatible reboost or mass-exchange tether system.
+(i) “SCRAM” means emergency reactor shutdown pursuant to this Convention.
+
+---
+
+# **PART III — REGISTRATION AND TRANSPARENCY**
+
+### **Article 5 — Registration of Operators**
+
+1. Each Party shall maintain a national registry of Operators.
+2. Each Party shall transmit registrations to the ABIC Unified Registry.
+
+### **Article 6 — Transparency Requirements**
+
+Operators shall:
+(a) Publish safety telemetry at intervals defined in Annex A;
+(b) Broadcast collision and hazard alerts;
+(c) Maintain public cryptographic hashes of reactor logs;
+(d) Report events that may endanger life, infrastructure, or the space environment.
+
+### **Article 7 — Environmental Protection**
+
+Operators shall prevent debris, contamination, and uncontrolled mass-ejections, in accordance with Annex A.
+
+---
+
+# **PART IV — SAFETY & REACTOR AUTHORITY (SRA)**
+
+### **Article 8 — Establishment of the SRA**
+
+1. The Safety & Reactor Authority (SRA) is established as an independent technical body.
+2. The SRA shall supervise all NPUs, reactor safety protocols, SCRAM procedures, and radiological standards.
+3. The SRA shall act impartially and independently.
+
+### **Article 9 — NPU Ownership and Licensing**
+
+1. All NPUs are property of the SRA.
+2. NPUs may be leased to Operators under Annex B.
+3. NPUs shall not be exported or transferred without SRA authorization.
+4. NPU leasing does not constitute export under national law.
+
+### **Article 10 — SCRAM Authority and Mutual Recognition**
+
+1. SCRAM actuation for any NPU shall be executed under the **exclusive jurisdiction and keys** of the State of Registry of that NPU, in conformity with that State’s export-control and nuclear-safety laws.
+2. The SRA shall maintain a real-time audit channel receiving non-proprietary status data and cryptographic reactor-log hashes.
+3. When the SRA declares an immediate hazard under Annex B, the State of Registry shall initiate SCRAM without delay.
+4. Failure to act within 120 seconds may result in automatic delisting of associated Nodes from ABIC scheduling.
+5. States may enter mutual recognition arrangements under which counterpart authorities accept each other’s SCRAM determinations; such arrangements shall not confer firmware control or veto powers to any foreign entity.
+6. Nothing in this Article requires foreign access to proprietary firmware or violates national export-control regimes.
+
+---
+
+# **PART V — OPERATIONAL STANDARDS**
+
+### **Article 11 — Node Standards**
+
+1. All Nodes shall comply with standards in Annex A.
+2. Nodes shall maintain one public safety telemetry channel.
+3. Nodes shall provide safe approach corridors and deconfliction protocols.
+
+### **Article 12 — Reactor Telemetry**
+
+Operators using SRA-owned NPUs shall transmit continuous cryptographic hashes of reactor logs for independent verification.
+
+### **Article 13 — Emergency Coordination**
+
+1. Parties shall notify other Parties of confirmed hazards or anomalies within thirty minutes.
+2. Operators shall follow SRA emergency directives.
+
+### **Article 14 — Collision Avoidance**
+
+Operators shall maintain maneuvering capability, adhere to designated traffic lanes, and comply with avoidance notices.
+
+---
+
+# **PART VI — ECONOMIC FRAMEWORK**
+
+### **Article 15 — No Taxes, Tariffs, or Mandatory Transfers**
+
+The ABIC shall impose no compulsory taxes, tariffs, levies, royalties, or percentage-based contributions.
+Procurement-based obligations under Article 16 bis shall not be deemed taxes or tariffs.
+
+### **Article 16 — Voluntary DCC Buy-Back Mechanism**
+
+1. Parties may voluntarily purchase Data-Credit Certificates (DCCs) from under-represented regions.
+2. Prices shall be determined by voluntary market action.
+3. No Party shall be compelled to contribute economically.
+
+### **Article 16 bis — Telemetry Equity Credits (TEC) Requirement**
+
+1. As a condition of access to certified CanCorridors, each Operator designated by its State as a **Major Operator** shall annually acquire TECs equal to **0.1%** of its total lane-slot value.
+2. TECs shall be a class of DCCs issued by the Secretariat to Small-Participation States listed in Annex C for safety, ephemeris, and environmental telemetry services.
+3. TECs are tradable and priced by market auction.
+4. The requirement is a procurement obligation, not a tax, and is tied to safety and scheduling.
+5. Failure to meet TEC minimums may result in temporary delisting from corridor scheduling.
+6. The Secretariat shall publish quarterly TEC compliance reports.
+
+### **Article 17 — Market Mechanisms**
+
+Operators may trade lane-slot futures and other risk instruments consistent with Annex C.
+
+---
+
+# **PART VII — LIABILITY AND INSURANCE**
+
+### **Article 18 — Operator Liability**
+
+Operators bear strict liability for damages caused by their activities.
+
+### **Article 19 — ABIC Insurance Pool (AGIIP)**
+
+1. The ABIC General Insurance and Indemnity Pool is established.
+2. AGIIP shall maintain:
+   (a) A maximum per-event draw of USD 8 million;
+   (b) Excess losses covered by lane-slot futures;
+   (c) Transparent actuarial reporting.
+
+### **Article 20 — Claims Procedure**
+
+Claims shall be settled through binding arbitration as defined in Article 22.
+
+---
+
+# **PART VIII — COMPLIANCE AND DISPUTES**
+
+### **Article 21 — Compliance Measures**
+
+1. Operators failing to meet standards may be temporarily delisted.
+2. Parties shall enforce delisting within their jurisdiction.
+
+### **Article 22 — Dispute Resolution**
+
+Disputes shall be settled by arbitration under the PCA Optional Rules for Space-Related Disputes.
+
+---
+
+# **PART IX — AMENDMENTS**
+
+### **Article 23 — Amendments**
+
+1. Annex amendments require a simple majority.
+2. Treaty modifications require two-thirds ratification.
+
+---
+
+# **PART X — FINAL CLAUSES**
+
+### **Article 24 — Signature and Ratification**
+
+Open to all UN Member States.
+
+### **Article 25 — Entry Into Force**
+
+Enters into force on the thirtieth day after the twentieth ratification.
+
+### **Article 25 bis — Provisional Application**
+
+1. This Convention may be applied provisionally by any Signatory upon signature.
+2. Provisional application shall take effect for a group of Signatories on the thirtieth day after the deposit of the tenth signature.
+3. States applying the Convention provisionally shall give effect to Parts I–VII and Annex A.
+4. Provisional application terminates upon notice or full ratification.
+5. Provisional application is without prejudice to national ratification procedures.
+
+---
+

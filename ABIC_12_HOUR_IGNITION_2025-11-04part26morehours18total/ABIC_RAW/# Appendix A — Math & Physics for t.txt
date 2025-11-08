@@ -1,0 +1,344 @@
+# Appendix A — Math & Physics for the Mag-Tarzan / CanCorridor / Ark system
+
+## Contents
+
+1. Constants & unit notes
+2. Magnetic grapple (coil) — pressure & force estimate
+3. Mag-Tarzan swing — required impulse and force per swing
+4. Mass-driver energy per ton (launching cans)
+5. Momentum-exchange tether (rotovator) — angular momentum and reboost energy example
+6. Nuclear-electric propulsion (NEP) — power ↔ thrust example
+7. Radiation shielding mass (water equivalent) for a habitat
+8. Recoil & asteroid reaction to mass-driver launches
+9. Power budgeting — example depot/tether numbers
+10. Quick reference table (numbers you can drop into scenes)
+
+---
+
+## 1) Constants & unit notes
+
+* Vacuum permeability: μ₀ = 4π × 10⁻⁷ H·m⁻¹ = 1.2566370614×10⁻⁶ H/m.
+* Standard gravity: g₀ = 9.80665 m·s⁻².
+* 1 Wh = 3600 J.
+* Conversions used explicitly in each arithmetic step.
+
+All arithmetic below is done digit-by-digit and shown so the reader can reproduce or tweak assumptions.
+
+---
+
+## 2) Magnetic grapple (coil) — pressure & force estimate
+
+We use the magnetic pressure estimate from the field energy density:
+
+[
+P_\text{mag} \approx \frac{B^2}{2\mu_0}
+]
+
+where (B) is the magnetic flux density near the coil (tesla), μ₀ as above. The net normal force on an area (A) facing the field is (F \approx P_\text{mag}\times A).
+
+### Example (close-range coil)
+
+Assume a superconducting coil can produce a local field (B = 3~\text{T}) at the contact face (this is within current superconducting tech for compact coils; larger systems can do more).
+
+Compute (P_\text{mag}):
+
+* (B^2 = 3^2 = 9) (T²).
+* (2\mu_0 = 2 \times 1.2566370614\times10^{-6} = 2.5132741228\times10^{-6}) H/m.
+* (P_\text{mag} = 9 \div 2.5132741228\times10^{-6}).
+
+Arithmetic:
+
+* (2.5132741228\times10^{-6} \approx 2.513274\times10^{-6}).
+* (9 \div 2.513274\times10^{-6} = \dfrac{9}{2.513274\times10^{-6}}).
+* Compute denominator reciprocal: (1 \div 2.513274\times10^{-6} \approx 397887.3577).
+* Multiply by 9: (397887.3577 \times 9 = 3,580,986.2193) Pa.
+
+So (P_\text{mag} \approx 3.58\times10^6) Pa ≈ **3.6 MPa** (megapascals).
+
+If the effective coupling area is (A = 1.0~\text{m}^2), the contact force:
+
+[
+F \approx P_\text{mag}\cdot A \approx 3.58\times10^{6},\text{N}
+]
+
+That is ~3.58×10⁶ N ≈ **3.6 MN** which is ~**360 tonnes-force** (using 1 tonne ≈ 9.81 kN; 3.58e6 / 9.81e3 ≈ 365 t).
+
+**Important caveat:** this is only achievable *at very short range* (millimeters–centimeters) against ferromagnetic material tightly coupled to the coil. Real force at tens of cm is orders of magnitude smaller because fields fall rapidly and coupling is imperfect. Expect effective operating ranges of tens of centimeters or less for large forces.
+
+**Engineering takeaway:** a 3 T coil with ~1 m² effective face area could, in ideal coupling, deliver MN-scale forces if in intimate proximity. Realistic operational forces for practical standoffs (0.1–1 m) will be far less; design for kN–100 kN sustained pulls at tens of meters using harpoons/winch combos.
+
+---
+
+## 3) Mag-Tarzan swing — required impulse and force per swing
+
+We want a practical estimate for a single swing providing Δv to the ship. Use Newton’s impulse relation:
+
+[
+\Delta v = \frac{J}{m_\text{ship}},\quad J = \int F,dt \approx F_\text{avg} \times \Delta t
+]
+
+### Example scenario (realistic near-term):
+
+* Ship (tender) mass (m_\text{ship} = 100,\text{t} = 1.0\times10^5 ,\text{kg}).
+* Desired Δv per swing: (\Delta v = 10,\text{m/s}) (useful incremental speed).
+* Required momentum change: (J = m_\text{ship}\times\Delta v = 1.0\times10^5 \times 10 = 1.0\times10^6 ,\text{kg·m/s}.)
+
+If the grapple can provide an average force (F_\text{avg} = 1.0\times10^5,\text{N}) (100 kN), the time required to deliver that impulse:
+
+[
+\Delta t = J / F_\text{avg} = 1.0\times10^6 \div 1.0\times10^5 = 10\ \text{s}.
+]
+
+So **100 kN for 10 s** → Δv = 10 m/s for 100 t ship.
+
+Compare that 100 kN to the ideal coil force above (3.6 MN at 1 m² and 3 T). Accounting for distance and coupling losses, designing for 100 kN continuous pulses is realistic with good engineering (harpoon contact + coil assist + winch mechanical advantage).
+
+**Engineering takeaway:** For a 100 t tender, per-swing Δv in the few–tens m/s range requires sustained pulses of order 10⁴–10⁵ N for tens of seconds. That is feasible with superconducting coils + mechanical winches if contacts are within ~meters and anchor mass ≫ ship mass.
+
+---
+
+## 4) Mass-driver energy per ton (launching cans)
+
+Kinetic energy to launch mass (m) to velocity (v):
+
+[
+E_k = \tfrac{1}{2} m v^2
+]
+
+### Example: 1-ton can to 2 km/s
+
+* (m = 1,\text{t} = 1000,\text{kg}).
+* (v = 2000,\text{m/s}).
+* (v^2 = 2000^2 = 4,000,000,\text{(m/s)}^2.)
+* (E_k = 0.5 \times 1000 \times 4,000,000 = 2.0\times10^{9},\text{J}.)
+
+Convert to Wh:
+
+* (1,\text{Wh} = 3600,\text{J}.)
+* (E_k = 2.0\times10^{9} \div 3600 = 555,555.5556,\text{Wh} \approx 555.6,\text{kWh}.)
+
+So **≈0.556 MWh per ton** (ideal; no losses).
+
+Assume system inefficiencies (power electronics, eddy losses, leakage, projectile guidance) — use a factor 2–4 to be conservative.
+
+* With ×2 inefficiency -> **≈1.11 MWh/ton** electrical energy.
+* With ×3 inefficiency -> **≈1.67 MWh/ton**.
+
+If a small asteroid mass driver fires 10 tons/day at ×2 inefficiency, energy/day ~11.1 MWh — easily supplied by a MW reactor (1 MW sustained = 24 MWh/day).
+
+**Engineering takeaway:** Mass-driver energy per ton is moderate — order of 0.5–2 MWh/ton depending on efficiency and target Δv. That’s well within small nuclear power plant budgets for reasonable cadences.
+
+---
+
+## 5) Momentum-exchange tether (rotovator) — angular momentum and reboost energy (worked example)
+
+The rotating tether catches an incoming can with mass (m_c) at tether tip radius (R); conservation of angular momentum gives a change in tether spin. The tether must be re-energized (reboosted) after repeated captures.
+
+### Simplified example numbers:
+
+* Tether equivalent rotating mass (approx): (M_\text{tether} = 1.0\times10^5,\text{kg}) (100 t).
+* Effective radius: (R = 1{,}000,\text{m}).
+  (This is a long tether — feasible for a high-capacity rotovator.)
+* Incoming can: (m_c = 1{,}000,\text{kg}) (1 t).
+* Tip linear velocity pre-capture: (v_\text{tip}=3{,}000,\text{m/s}) (example for intercept corridor).
+
+Compute tether moment of inertia (approx for concentrated mass at radius):
+
+[
+I \approx M_\text{tether} R^2 = 1.0\times10^5 \times (1.0\times10^3)^2 = 1.0\times10^{11},\text{kg·m}^2.
+]
+
+Angular momentum delivered by can capture (assuming can relative motion ~ zero once matched):
+
+[
+\Delta L = m_c , v_\text{tip} , R = 1.0\times10^3 \times 3.0\times10^3 \times 1.0\times10^3 = 3.0\times10^9,\text{kg·m}^2/\text{s}.
+]
+
+Change in angular velocity:
+
+[
+\Delta \omega = \Delta L / I = 3.0\times10^9 \div 1.0\times10^{11} = 0.03,\text{rad/s}.
+]
+
+If original angular speed (\omega_0 = v_\text{tip}/R = 3000/1000 = 3.0,\text{rad/s}), rotational energy increase approximately:
+
+[
+\Delta E \approx \tfrac{1}{2} I \left[(\omega_0+\Delta\omega)^2 - \omega_0^2\right]\approx \tfrac{1}{2} I(2\omega_0\Delta\omega + \Delta\omega^2).
+]
+
+Plug numbers:
+
+* (2\omega_0\Delta\omega = 2\times3.0\times0.03 = 0.18).
+* (\Delta\omega^2 = 0.0009).
+* Sum ≈0.1809.
+
+So
+
+[
+\Delta E \approx 0.5 \times 1.0\times10^{11} \times 0.1809 = 0.09045\times10^{11} = 9.045\times10^9,\text{J}.
+]
+
+So reboost energy **≈ 9.0×10⁹ J** (≈9 GJ) per 1-ton capture under these assumptions.
+
+Convert to time at 1 MW continuous power:
+
+* (1~\text{MW}=1.0\times10^6,\text{J/s}.)
+* Time = (9.045\times10^9 \div 1.0\times10^6 = 9045\ \text{s} \approx 2.51\ \text{hours}.)
+
+So a **1 MW** reboost source can restore the tether in about **2.5 hours** for that catch. Larger tether masses or more frequent catches scale this.
+
+**Engineering takeaway:** Reboost energy is large per capture but manageable with MW-class reactors. High throughput requires more continuous power or scheduled reboost cycles and possibly multiple tethers to distribute loading.
+
+---
+
+## 6) Nuclear-electric propulsion (NEP) — power ↔ thrust example
+
+For electrically-driven ion engines the idealized relation (one model) between available electrical power (P) and thrust (T) (for a high-Isp ion thruster) is:
+
+[
+T \approx \frac{2P}{v_e}
+]
+
+where (v_e) is the effective exhaust velocity.
+
+Effective exhaust velocity from specific impulse:
+
+[
+v_e = g_0, I_\text{sp}.
+]
+
+### Example: 1 MW NEP, Isp = 3000 s
+
+* (g_0 = 9.80665,\text{m/s}^2).
+* (v_e = 9.80665\times3000 \approx 29{,}420,\text{m/s}.)
+* (P = 1.0\times10^6,\text{W}.)
+
+Compute thrust:
+
+[
+T \approx \frac{2\times1.0\times10^6}{29420} \approx \frac{2.0\times10^6}{29420}.
+]
+
+Arithmetic:
+
+* (2.0\times10^6 \div 29420 \approx 67.98,\text{N}.)
+
+So (T\approx 68,\text{N}.)
+
+Acceleration for a 1000-ton vehicle:
+
+* (m = 1000,\text{t}=1.0\times10^6,\text{kg}.)
+* (a = T/m = 68 \div 1.0\times10^6 = 6.8\times10^{-5},\text{m/s}^2.)
+
+Daily Δv:
+
+* seconds/day = 86400.
+* (\Delta v_\text{day} = a\times86400 = 6.8\times10^{-5}\times86400).
+* Multiply: (6.8\times10^{-5}\times86400 = 6.8\times8.64\times10^4\times10^{-5} ) — do straightforward:
+
+Compute (6.8\times10^{-5}\times86400) precisely:
+
+* (86400 \times 6.8 = 587,520.)
+* Then times 10⁻5: (587,520 \times 10^{-5} = 5.8752) m/s.
+
+So ≈**5.88 m/s per day**.
+
+**Engineering takeaway:** 1 MW NEP with Isp=3000 s provides tens of N of thrust — enough for sustained multi-day Δv accumulation. For cargo motherships this is a practical, fuel-efficient option.
+
+---
+
+## 7) Radiation shielding mass (water equivalent)
+
+Radiation shielding often specified as g/cm² (areal density). Convert areal density to total mass for a given hab shell area.
+
+Conversion:
+
+* (1,\text{g/cm}^2 = 0.001,\text{kg/cm}^2 = 10,\text{kg/m}^2) (because 1 m² = 10,000 cm², so 0.001 kg/cm² × 10,000 = 10 kg/m²).
+
+### Example: 20 g/cm² water equivalent (comfortably robust shielding against solar particle events and long-term GCR mitigation baseline for habitats)
+
+* Areal mass = (20,\text{g/cm}^2 \Rightarrow 20 \times 10 = 200,\text{kg/m}^2.)
+
+Habitat modeled as a cylinder (side area primarily for shielding). For radius (R=10) m, length (L=30) m:
+
+* Side area (A_\text{side} = 2\pi R L = 2\pi \times 10 \times 30).
+* (2\pi \times 10 \times 30 = 600\pi \approx 600 \times 3.14159 = 1884.9556) m².
+
+Total water mass (M_w = A_\text{side} \times 200,\text{kg/m}^2):
+
+* (1884.9556 \times 200 = 376,991.12) kg ≈ **3.77×10⁵ kg** ≈ **377 t**.
+
+So roughly **~380 metric tons of water** for a 10×30 m cylindrical hab at 20 g/cm².
+
+**Engineering takeaway:** Water shielding is heavy but feasible when sourced from asteroidal water (cheap in situ). For a spin habitat this mass is substantial but is exactly the type of bulk material belt mining supplies.
+
+---
+
+## 8) Recoil & asteroid reaction to mass-driver launches
+
+Momentum conservation: firing mass (m) at velocity (v) imparts recoil momentum (p=m v) to the asteroid. Asteroid Δv = (p/M_\text{asteroid}).
+
+### Example: 1 t can, 2 km/s, asteroid mass (M_a = 10^{12}) kg (1000-m class asteroid ~ plausible rubble mass order)
+
+* (p = 1000 \times 2000 = 2.0\times10^6,\text{kg·m/s}.)
+* Δv = (2.0\times10^6 \div 1.0\times10^{12} = 2.0\times10^{-6},\text{m/s}.)
+
+That is **2 µm/s** — negligible for orbital geometry. Even many launches/day will be tiny shifts. For small boulders, recoil is significant; mass drivers should be mounted on large mass anchors or paired with reaction mass mitigation (counter-shots or anchoring).
+
+**Engineering takeaway:** Mass-driver recoil negligible for sufficiently large host bodies; choose ambitious enough anchor masses or use recoil compensation.
+
+---
+
+## 9) Power budgeting — example depot/tether numbers
+
+Using earlier numbers:
+
+* Mass-driver energy per 1-ton can: ~0.556 MWh (ideal). With ×2 inefficiency → 1.11 MWh/ton.
+* Tether reboost per 1-ton can (example): ~9.0 GJ = 9.0×10⁹ J. Convert to kWh: (9.0\times10^9 / 3600 \approx 2.5\times10^6) Wh = 2500 kWh = **2.5 MWh**.
+
+So per 1-ton transfer using the example rotovator/tip speed, reboost ~2.5 MWh; launcher ~1.1 MWh. Total electrical energy ~3.6 MWh per ton (dependent on parameters).
+
+**If depot reactor is 1 MW electrical** (continuous):
+
+* Energy/day = 24 MWh/day.
+* If each ton costs ~3.6 MWh, reactor/day can support (24 \div 3.6 \approx 6.66) tons/day.
+
+Scale results:
+
+* To support 60 tons/day → need ~10 MW electrical continuous.
+* To support 600 tons/day → need ~100 MW.
+
+These scale lines are practical: a small fission plant (1–10 MW) supports low cadence; industrial scale needs >10s MW.
+
+**Engineering takeaway:** Early operation with 1–10 MW reactors is realistic for demonstrations and low throughput. Industrial throughput requires reactors scaled into tens–hundreds of MW (or several modular reactors).
+
+---
+
+## 10) Quick reference table (pick-and-drop numbers)
+
+All numbers are order-of-magnitude estimates under the assumptions spelled out above.
+
+* Coil field: (B = 3) T → magnetic pressure ≈ **3.6 MPa** (1 m² face → 3.6 MN force in ideal coupling).
+* Practical grapple forces at useful standoff: **10⁴ – 10⁵ N** (10–100 kN) per grapple is a realistic design target.
+* Tender mass example: **100 t (1.0×10⁵ kg)**.
+* Δv per swing target: **5–20 m/s**.
+* Impulse: 1e6 kg·m/s for 10 m/s on 100 t ship.
+* Mass-driver energy (1 ton to 2 km/s): **~0.56 MWh** ideal; **~1.1–1.7 MWh** with inefficiencies.
+* Rotovator reboost (1 t intercept, 1e5 kg tether at R=1000 m, v_tip=3000 m/s): **~9 GJ** (~2.5 MWh).
+* NEP 1 MW, Isp 3000 s → thrust ≈ **68 N** → 1e6 kg ship acceleration ≈ **6.8×10⁻⁵ m/s²** → **~5.9 m/s per day**.
+* Shielding: **20 g/cm² ≈ 200 kg/m²** → 10×30 m cylinder side ≈ **377 t** water.
+* Mass driver recoil for 1 t to 2 km/s against 1e12 kg asteroid: Δv ≈ **2×10⁻⁶ m/s** (negligible).
+
+---
+
+# Final notes & assumptions 
+
+1. **Ranges & losses matter.** Magnet forces drop steeply with distance; practical grapples will rely on harpoons + mechanical tethering for > few tens of cm. The coil then provides short-range magnetic clamping + electromagnetic impulse shaping.
+
+2. **Thermals & superconductors.** Pulsed high fields create heating and eddy currents in nearby metal. Engineering requires superconducting coil cryogenics, thermal management, and pulsed power capacitors. These are hard but engineering problems — not known physics-blockers.
+
+3. **Tether survivability.** Long tethers face micrometeoroid abrasion, radiation embrittlement, and fatigue. Redundancy and on-site repair robotics are required.
+
+4. **Political & legal layers** are outside physics but drive build cadence. The technical numbers above assume committed continuous power (nuclear) and an operational depot.
+
+5. **Scaling is linear-ish with power and mass.** The numbers above let you alter reactor size, tether length, or ship mass and recompute using the same formulas.

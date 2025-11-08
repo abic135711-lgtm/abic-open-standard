@@ -1,0 +1,128 @@
+# ✅ ABIC Character & Worldbuilding Reference List
+
+## 🧠 Visionary Engineers & Inventors
+
+- **JPL “A-Team” / NIAC investigators** – skunkworks mindset; design 30-years-out missions under brutal constraints.
+- **Robert L. Forward** – audacious physics (tethers, lightsails); “polymath who makes spreadsheets sing.”
+- **Jerome Pearson / Joe Carroll / Robert P. Hoyt (Tethers Unlimited)** – the tether mafia; pragmatic dreamers who prototype weird ideas.
+- **John C. Mankins** – space-based solar power evangelist; methodical, policy-savvy engineer.
+- **Mason Peck** – Cornell, “Sprites” chipsats; playful, elegant minimalism.
+- **Geoffrey Landis** – NASA scientist + Hugo/Nebula author; poetic engineer.
+- **Philip Lubin** – laser propulsion; relentless slide decks and scary math.
+- **Pekka Janhunen** – electric sail; quiet radical.
+- **Zachary Manchester** – chip-scale spacecraft and swarm coordination; distributed systems thinker.
+- **Mark Forgione / Made In Space team** – pioneers of 3D printing in microgravity.
+- **Julia Greer** – Caltech materials scientist; architected nano-structures.
+- **Vandi Verma** – JPL robotics lead; Mars rover driver.
+- **Ken Murphy** – lunar economics and governance systems thinker.
+
+---
+
+## 🧪 ISRU & Resource Experts (Your Belt Cast)
+
+- **Phil Metzger** – lunar regolith nerd; obsessed with excavation that won’t break your robots.
+- **Angel Abbud-Madrid (CSM)** – space resources center director; sober, industry-bridging academic.
+- **Paul Spudis (in memoriam)** – lunar volatiles champion; stubborn visionary everyone ends up citing.
+- **Joel Sercel (TransAstra)** – optical mining; scrappy inventor with go-build energy.
+- **Erika Nesvold** – ethics of space settlement; co-founder of JustSpace Alliance.
+
+---
+
+## 🚀 Private-Sector Catalysts
+
+- **Gwynne Shotwell (SpaceX)** – operations assassin; “just get it done.”
+- **Peter Beck (Rocket Lab)** – boyish zeal + hard realism.
+- **Tim Ellis (Relativity)** – 3D-printing true believer; polished pitch + deep tech.
+- **Chris Lewicki / Rick Tumlinson** – asteroid-mining pioneers; bruised but influential DNA.
+- **Nobu Okada (Astroscale)** – debris cleanup as a business; patient coalition-builder.
+- **Jeff Bezos (Blue Origin)** – “step-by-step, ferociously”—cathedral-builder archetype.
+
+---
+
+## ⚖️ Policy Shapers & Space Law
+
+- **Lori Garver / Pam Melroy / Bhavya Lal** – reformist NASA leaders; politically deft, data-driven.
+- **Jim Bridenstine / Charles Bolden** – administrator archetypes; coalition management under fire.
+- **Mike Gold** – Artemis Accords architect; persuasive legal tactician.
+- **Simonetta Di Pippo (ex-UNOOSA)** – UN diplomat energy; velvet glove over titanium process.
+- **Secure World Foundation (Brian Weeden, Victoria Samson)** – deconfliction adults in the room.
+- **Open Lunar (Jessy Kate Schingler)** – civil-society governance vibe.
+- **Space law scholars**: Frans von der Dunk, Joanne Gabrynowicz, Michelle Hanlon, Christopher Newman, Tanja Masson-Zwaan – razor-edged legal brains; great for dialogue on “commons vs. claims.”
+- **Namrata Goswami** – geopolitical strategist focused on space power and national ambitions.
+
+---
+
+## ⚛️ Nuclear-in-Space & Power Systems
+
+- **Kilopower team (Marc Gibson, David Poston)** – small fission with Midwestern calm; “measure twice, scram never.”
+- **Aerospace Corp nuclear & safety analysts** – risk math meets flight heritage.
+- **DARPA NOM4D** – pushing adaptive orbital materials and in-space manufacturing.
+
+---
+
+## 🛰️ Standards, Safety & Traffic Control
+
+- **Aerospace Corporation** – the people you call to make it real and safe.
+- **ISO TC20/SC14 & ASTM F47** – standards goblins; tedious, essential, incorruptible.
+- **Planetary defense: Lindley Johnson (PDCO)** – quiet sentinel archetype.
+
+---
+
+## 🌍 International Program Leads
+
+- **ESA leadership (Josef Aschbacher)**
+- **JAXA Hayabusa teams**
+- **DLR mission planners**
+- **ISRO deep-space leads**  
+All known for diligence, thrift, and elegance in deep-space operations.
+
+---
+
+## 📣 Public-Facing Explainers (Comms Archetypes)
+
+- **Tim Dodd (Everyday Astronaut)**
+- **Scott Manley**
+- **Isaac Arthur**
+- **Kurzgesagt writers**
+- **Casey Dreier (Planetary Society)**
+- **Kellie Gerardi** – commercial astronaut, accessible communicator.
+- **Danielle Wood (MIT Space Enabled)** – equity-focused systems thinker.
+- **Clare Winslow (Sierra Space)** – emerging engineering lead.
+
+---
+
+## 🏛️ Organizations to Mine for Texture
+
+- **NASA NIAC / JPL / OTPS**
+- **ESA Concurrent Design Facility**
+- **UNOOSA / COPUOS**
+- **IAEA (for orbital reactors)**
+- **Aerospace Corp**
+- **The Planetary Society**
+- **Secure World Foundation**
+- **Open Lunar**
+- **Colorado School of Mines SSRL**
+- **Tethers Unlimited**
+- **TransAstra**
+- **Astroscale**
+- **The MILO Institute**
+- **The Hague Space Resources Governance Working Group**
+
+---
+
+## 🧩 Composite Archetypes for Scenes
+
+1. **The Tether Priest** – veteran engineer; speaks in load envelopes and capture windows; treats fiber spools like sacred relics.
+2. **The Velvet Diplomat** – ex-UNOOSA official; counts votes in six languages; never raises her voice, always wins.
+3. **The Kilopower Monk** – reactor lead; carries a dog-eared PRA; jokes dry enough to sand wood.
+4. **The Shotwell Clone** – COO who eats Gantt charts for breakfast; fixes politics with schedule.
+5. **The Commons Lawyer** – idealist with claws; quotes the Outer Space Treaty; drafts your ABIC annex before lunch.
+6. **The Miner-Poet** – ISRU field lead; names drill heads and apologizes to rocks; knows which dust kills actuators.
+7. **The Meme Engineer** – charismatic explainer; turns your rotovator into a 60-second clip that forces a parliamentary hearing.
+8. **The Swarm Architect** – designs autonomous miner fleets; speaks in coordination algorithms and emergent behavior.
+9. **The Treaty Whisperer** – multilingual legal strategist; mediates between rival Ark factions.
+10. **The Dust Analyst** – obsessed with regolith particle dynamics; knows which grains jam rotovators.
+11. **The Reactor Shepherd** – oversees NPUs; speaks in neutron flux and coolant loops.
+12. **The Commons Evangelist** – believes the Belt should be open-source; fights for transparency in every corridor.
+
+
