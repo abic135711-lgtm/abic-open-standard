@@ -1,23 +1,19 @@
-# **ABIC — Asteroid Belt Industrial Corridor**
+ABIC — Asteroid Belt Industrial Corridor
 
-**An open, non-profit framework for safe, cooperative space logistics.**
+An open, non-profit framework for safe, cooperative space logistics.
 
-This repository contains the complete ABIC ecosystem: a cross-disciplinary framework for building shared logistics, safety standards, engineering interoperability, and international governance for asteroid-belt and Mars-bound operations.
+This repository contains the complete ABIC ecosystem: a cross-disciplinary framework for designing shared logistics, safety standards, engineering interoperability, and international governance for asteroid-belt and Mars-bound operations.
 
 ABIC is not commercial, not affiliated with any institution, and not presented as a finalized solution.
-It is a starting point — a structural concept created to expand the discussion around safe and cooperative space development.
+It is a starting point — a structural concept built to expand the conversation about safe and cooperative development beyond Earth orbit.
 
----
+📄 One-Page Overview (Start Here)
 
-## 📄 **One-Page Overview (Start Here)**
+If you're new to ABIC, begin with the one-page explainer:
 
-If you're new to ABIC, begin with the one-page summary:
+👉 Download ABIC_One_Pager.pdf
 
-📄 ABIC One-Pager (PDF) — SHA-256: d661a85052688b7ceb1d1031242af50ad1591a9a39c7e31eb91fc88aa9e192e1
-[[Download ABIC_One_Pager.pdf](https://raw.githubusercontent.com/abic135711-lgtm/ABICthenext6hours/main/ABIC_12_HOUR_IGNITION_2025-11-04part26morehours18total/Doc/ABIC_One_Pager.pdf)
-](https://github.com/abic135711-lgtm/ABICthenext6hours/blob/main/ABIC_12_HOUR_IGNITION_2025-11-04part26morehours18total/Doc/ABIC_One_Pager.pdf?raw=true
-)
-
+This PDF summarizes the purpose, structure, and goals of the ABIC framework.
 
 
 ---
