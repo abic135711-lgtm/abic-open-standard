@@ -14,7 +14,8 @@ It is a starting point — a structural concept created to expand the discussion
 If you're new to ABIC, begin with the one-page summary:
 
 📄 ABIC One-Pager (PDF) — SHA-256: d661a85052688b7ceb1d1031242af50ad1591a9a39c7e31eb91fc88aa9e192e1
-ABIC_12_HOUR_IGNITION_2025-11-04part26morehours18total/Doc/ABIC_One_Pager.pdf
+[Download ABIC_One_Pager.pdf](https://raw.githubusercontent.com/abic135711-lgtm/ABICthenext6hours/main/ABIC_12_HOUR_IGNITION_2025-11-04part26morehours18total/Doc/ABIC_One_Pager.pdf)
+
 
 
 
