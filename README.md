@@ -1,5 +1,4 @@
-ABIC — Asteroid Belt Industrial Corridor
-
+# ABIC — Asteroid Belt Industrial Corridor (Open Standard)
 An open, non-profit framework for safe, cooperative space logistics.
 
 This repository contains the complete ABIC ecosystem: a cross-disciplinary framework for designing shared logistics, safety standards, engineering interoperability, and international governance for asteroid-belt and Mars-bound operations.
