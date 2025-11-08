@@ -95,7 +95,3 @@ Recommended entry points:
 * **Node Standards (Annex A)**
 
 If you desire depth, the reasoning logs show the entire transparent creation chain.
-
-### 4. SHA-256 
-SHA256 hash of ABIC_12_HOUR_IGNITION_2025-11-04.zip:
-82e6105c1b0173d30bdad6933e09d4ba3c80220b5e1c5432bd60496dcb638a72
