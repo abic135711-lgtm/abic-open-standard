@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="A_digital_graphic_design_banner_represents_the_Ast.png" alt="ABIC — Asteroid Belt Industrial Corridor" width="100%">
+  <img src="https://raw.githubusercontent.com/abic135711-lgtm/abic-open-standard/main/ABIC_HEADER_BANNER.png" 
+       alt="ABIC — Asteroid Belt Industrial Corridor Banner" width="100%">
 </p>
 # 🌐 ABIC — Asteroid Belt Industrial Corridor (Open Standard)
 
