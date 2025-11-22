@@ -1,0 +1,8 @@
+WATER-FARM v2 — FIRE-SAFE
+
+             50 m EVA stand-off           
+     ┌───────────────────────┐
+     │   FIRE SPINE 1 (6 Catchers)  │───┐
+     │   FIRE SPINE 2 (6 Catchers)  │───┤──→ HABITAT (safe zone)
+NUCLEAR ISLAND ─ FIRE SPINE 3 (6 Catchers) ─┘
+    (100 MW, dual Ti bulkheads each)

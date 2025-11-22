@@ -1,0 +1,33 @@
+**budget catcher reboost energy too**, which scales ~(v^2) just like launch. Here’s a crisp way to lock it in.
+
+# Velocity tiers 
+
+| Lane          |          Speed |         Transit | Launch energy (≈3× ineff) | **Catcher reboost** | **Total depot energy** | Fits what cargo                                                 |
+| ------------- | -------------: | --------------: | ------------------------: | ------------------: | ---------------------: | --------------------------------------------------------------- |
+| **Bulk**      |     **5 km/s** | **1.4–1.6 yrs** |             **~10 MWh/t** |    **~15–20 MWh/t** |       **~25–30 MWh/t** | commodity metals, shielding rock, slag                          |
+| **Priority**  | **10–12 km/s** |      **7–9 mo** |          **~42–50 MWh/t** |   **~70–105 MWh/t** |     **~110–155 MWh/t** | scheduled industrial feedstocks, water/LOX                      |
+| **Express**   |    **15 km/s** |      **4–6 mo** |             **~94 MWh/t** |  **~160–180 MWh/t** |     **~250–275 MWh/t** | high-value alloys, critical spares                              |
+| **Emergency** | **20–22 km/s** |     **6–8 wks** |        **~140–180 MWh/t** |  **~290–360 MWh/t** |     **~430–540 MWh/t** | life-or-death cargo only; surge pricing; dedicated fast-catcher |
+
+* Launch energies match your numbers (they’re ~3× the ideal (½mv^2)).
+* **Reboost** estimates scale ≈((v/5)^2) from a 5 km/s anchor value of ~18 MWh/t (mid of 15–20).
+* **Total depot energy** = launch + reboost (what actually limits throughput at the catcher/depot).
+
+# What that means for capacity (rule of thumb)
+
+For a **10 MW** depot (≈240 MWh/day available):
+
+* **Bulk:** 240 / 27.5 ≈ **8–9 t/day**
+* **Priority:** 240 / 130 ≈ **~2 t/day**
+* **Express:** 240 / 260 ≈ **~0.9 t/day**
+* **Emergency:** 240 / 450 ≈ **~0.5 t/day** (roughly one 1-ton shot every ~2 days)
+
+Scale linearly with power (e.g., 30 MW → triple those throughputs). Also remember **radiators**: at multi-MW waste heat you’re into **thousands to tens of thousands m²** of radiator area—plan it up front.
+
+# Ops policy to bake in
+
+* **Tiered lanes exactly as you wrote.** Price by **MWh + slot priority** so customers self-select the right lane.
+* **Fast-catcher infrastructure** (Emergency lane): higher tip speeds, beefier tethers, more reboost power, tighter timing windows; keep it segregated so it doesn’t starve Bulk/Priority.
+* **Slot & inventory control:** book arrival windows; use Little’s Law (WIP = throughput × transit time) to size in-flight inventory and depot buffers.
+* **Risk & insurance:** longer transits accumulate risk; surcharge slow lanes slightly for insurance, discount fast lanes on WIP carrying cost—or just reflect both in per-MWh pricing.
+

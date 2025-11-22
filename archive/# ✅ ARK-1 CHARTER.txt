@@ -1,0 +1,220 @@
+# ✅ **ARK-1 CHARTER**
+
+*Governing Framework for Crewed Ark-Class Habitats Operating under ABIC*
+
+---
+
+# **PREAMBLE**
+
+The crew of Ark-1, operating under the authority of the Asteroid Belt Industrial Corridor (ABIC) and the Safety & Reactor Authority (SRA), adopts this Charter to ensure:
+
+* the safety and continuity of life aboard the Ark,
+* the equitable governance of all personnel,
+* the preservation of scientific and operational integrity,
+* and the lawful, peaceful use of space.
+
+This Charter applies for the full duration of Ark-1’s deployment.
+
+---
+
+# **ARTICLE I — STATUS OF ARK-1**
+
+1. Ark-1 is a **crewed ABIC Node** registered under Article 11 of ABIC-Lite.
+2. Ark-1 is **non-sovereign**, **non-military**, and **operationally autonomous** except where safety, nuclear operations, or treaty compliance is involved.
+3. All personnel aboard Ark-1 are subject to this Charter, ABIC-Lite, and the SRA Code of Reactor Conduct.
+
+---
+
+# **ARTICLE II — CREW RIGHTS AND RESPONSIBILITIES**
+
+### **Section 1 — Fundamental Rights**
+
+All crew members are guaranteed:
+
+1. Air, water, shelter, medical care, and emergency protection.
+2. Freedom from coercion, discrimination, or retaliation.
+3. The right to petition the Crew Council.
+4. The right to refuse unsafe work in good faith.
+
+### **Section 2 — Responsibilities**
+
+All crew members must:
+
+1. Follow safety protocols.
+2. Maintain honest telemetry logs.
+3. Participate in mandatory emergency and medical drills.
+4. Treat all crew with respect and uphold communal stability.
+
+---
+
+# **ARTICLE III — GOVERNANCE STRUCTURE**
+
+Ark-1 governance consists of **three co-equal branches**, forming the “Tripod Model”:
+
+### ✅ **1. Democratic Crew Council**
+
+* 20 elected representatives
+* 4-month terms
+* One representative per 25 crew
+
+**Powers:**
+
+* Oversees crew welfare
+* Approves schedules, recreation, food-culture policy
+* Manages non-safety dispute resolution
+* Can veto Command Deck choices on non-safety issues with a ⅔ vote
+
+---
+
+### ✅ **2. Technocratic Command Deck**
+
+The Command Deck governs operational and safety-critical matters.
+
+**Roles:**
+
+* Captain
+* Deputy Captain
+* Navigation Chief
+* Reactor Chief
+* Safety Officer (SRA liaison)
+* Systems Chief
+
+**Powers:**
+
+* EVA operations
+* Habitat pressurization
+* Reactor thermal limits
+* Catcher operations
+* Fire-spine alignment
+* Water-farm campaign oversight
+* Emergency actions within EC-0 protocol
+
+Crew Council may **not** override safety decisions.
+
+---
+
+### ✅ **3. Treaty-Bound SRA Authority**
+
+The SRA holds jurisdiction strictly over:
+
+* Reactor SCRAM
+* Radiological safety
+* Annex A compliance
+* Telemetry integrity
+* Fire-spine certification
+
+SRA decisions override all others in safety matters only.
+
+---
+
+# **ARTICLE IV — EMERGENCY AUTHORITY**
+
+### **Section 1 — EC-1 (Alert)**
+
+Trigger: CO₂ rise, water breach, fire alarm, decompression.
+
+Authority:
+
+* Command Deck gains temporary operational priority.
+* Crew Council suspended.
+
+### **Section 2 — EC-0 (Life-Threatening)**
+
+Trigger: Reactor anomaly, hull breach, chain failure in Fire-Spines, collision imminent.
+
+Authority hierarchy:
+
+1. **Safety Officer (SRA liaison)**
+2. **Reactor Chief** (if nuclear-related)
+3. **Captain**
+4. **Deputy Captain**
+
+All subsystems fall under direct command of EC-0 authority.
+
+### **Section 3 — Duration**
+
+EC-0 and EC-1 cease once systems are stabilized and SRA acknowledges closure.
+
+---
+
+# **ARTICLE V — JUSTICE & DISCIPLINE**
+
+1. The Crew Council mediates minor disputes and interpersonal conflicts.
+2. The Command Deck arbitrates operational violations or negligence.
+3. The SRA reviews violations related to reactor, fire-spine, or Annex A breach.
+4. Maximum sanction aboard Ark-1 is confinement and repatriation — **no capital or corporal punishment permitted.**
+
+---
+
+# **ARTICLE VI — MEDICAL & PSYCHOLOGICAL CARE**
+
+1. All crew members must undergo quarterly medical and psychological evaluations.
+2. The Medical Chief and Psych Officers have independent authority to:
+
+   * declare a crewmember medically unfit,
+   * mandate rest cycles,
+   * remove personnel from duty.
+3. Medical privacy is protected except during EC-0 events.
+4. Telemedicine with SRA Medical Command is mandatory for:
+
+   * radiation exposure,
+   * multi-trauma events,
+   * psychiatric crises beyond local capacity.
+
+---
+
+# **ARTICLE VII — LIFE SUPPORT SAFETY**
+
+1. Life Support (LS) is governed by **four-loop fault-tolerant architecture**:
+
+   * Air
+   * Water
+   * Biological
+   * Thermal
+2. Each loop must maintain **100% redundancy** and **sector isolation**.
+3. Cryo-vault biological stocks must be audited quarterly.
+4. Emergency reserves:
+
+   * **180-day food mass**
+   * **30-day O₂/CO₂ buffer**
+5. Any breach of LS integrity triggers EC-1.
+
+---
+
+# **ARTICLE VIII — FIRE-SPINE & WATER-FARM OPERATIONS**
+
+1. All water-shield campaigns must use **Fire-Spine v2** standards:
+
+   * 3 detached 100 m spines
+   * 50 m EVA standoff
+   * Dual titanium bulkheads
+   * Breakaway-rated umbilicals
+2. During campaigns, Fire-Spines operate under joint command:
+
+   * Reactor Chief
+   * Safety Officer
+   * Catcher Operations Lead
+3. Pressure anomalies greater than 3% auto-trigger EC-1.
+4. Catcher Farm cannot be rigidly attached to habitat at any time.
+
+---
+
+# **ARTICLE IX — DATA, TRANSPARENCY & TELEMETRY**
+
+1. All telemetry is public per ABIC norms.
+2. Tampering with telemetry is treated as a **Class A violation**.
+3. Reactor logs must produce cryptographic hashes every 60 seconds.
+4. All safety data is retained for a minimum of 10 years.
+
+---
+
+# **ARTICLE X — AMENDMENTS**
+
+1. Amendments to the Ark Charter require:
+
+   * **⅔ Crew Council majority**, and
+   * **majority Command Deck approval**, and
+   * **SRA safety review**
+2. Emergency amendments may be enacted temporarily under EC-0 but expire in 30 days unless formally ratified.
+
+---

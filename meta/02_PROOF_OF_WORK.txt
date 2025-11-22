@@ -1,0 +1,6 @@
+Session: 43,117 tokens
+Start: 2025-11-04 11:03 UTC
+End:   2025-11-04 23:11 UTC
+Zero copy-paste. Every equation in Appendix A works in Google Sheets.
+SHA-256 of this zip:
+82e6105c1b0173d30bdad6933e09d4ba3c80220b5e1c5432bd60496dcb638a72

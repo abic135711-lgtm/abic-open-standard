@@ -1,0 +1,204 @@
+
+# 0) Baseline assumptions (tune these as you like)
+
+* Tender (“Mag-Tarzan”) mass (m_s = 1\times10^5) kg (100 t).
+* Typical per-swing target (\Delta v) = 5–20 m/s.
+* Ferromagnetic anchor is a **large** rubble/iron body (M_a \ge 10^{11}) kg (≥100-m scale).
+* Coil face fields (B) = 3–5 T pulsed near-contact; practical standoff forces by **tethers/winches** (EM assists at short range).
+* Mass-driver can: 1–5 t; muzzle (v) ≈ 1.5–3.0 km/s.
+* Rotovator tip speed (v_\text{tip}) ≈ 2–3 km/s; radius (R) ≈ 0.5–2 km; effective rotating mass (M_t) ≈ 50–200 t.
+* Depot power 1–10 MW (pilot) → 10–100+ MW (industrial).
+* Shielding 20 g/cm² water-equiv (≈200 kg/m²).
+
+---
+
+# 1) Magnetic grapple physics: range, force, heating
+
+**Why it can fail:** fields fall fast; eddy current heating; quench limits.
+
+* **Field energy density / pressure:** (P \approx \dfrac{B^2}{2\mu_0}).
+  At **3 T** → (P \approx 3.6) MPa → **MN-class** force only at tight coupling (~cm).
+* **Range law:** force from magnet on ferromagnet scales roughly (\propto 1/r^{4}) (dipole–image idealization). **Implication:** meaningful EM force only within **decimeters**. Beyond that, use **mechanical harpoon + winch**; the coil gives short pulses and clamping.
+* **Skin depth (eddy heating):** (\delta=\sqrt{\tfrac{2\rho}{\mu\omega}}).
+  Iron: (\rho\sim10^{-7}\ \Omega!·\text{m}), (\mu_r\gg1). At kHz, (\delta) is **mm-scale** ⇒ strong surface currents/heat.
+  **Mitigate** with **DC/low-freq** pulls and short pulses; avoid continuous HF fields.
+* **Superconductor limits:** practical steady (B)(\lesssim) 5–10 T (NbTi/Nb3Sn/HTS), with **pulsed** higher. Quench if coil sees too much AC loss or thermal spike.
+  **Red line:** if you *need* >~5 T steady at >0.5 m standoff for kN forces, **doesn’t pencil**. Use tethers.
+
+**Pass condition:** Treat EM as a near-contact clamp/impulse; do the real work with **triangulated tethers/winches**.
+
+---
+
+# 2) Anchor mass, cohesion & “don’t move the rock”
+
+**Why it can fail:** you tug a small boulder → you just meet in the middle; or you rip regolith.
+
+* **Momentum exchange:** ship impulse (J = m_s\Delta v). Equal/opposite to anchor: (\Delta V_a = J/M_a).
+  For (m_s=10^5) kg, (\Delta v=10) m/s → (J=10^6\ \text{N·s}).
+  With (M_a=10^{11}) kg → (\Delta V_a = 10^{-5}) m/s (negligible).
+  **Red line:** if (M_a \lesssim 10^{8}) kg (≈30-m rock), your pull **repositions the anchor** too much.
+* **Regolith/aggregate shear:** rubble-pile cohesion σ(*c) can be **10–1000 Pa** (wide!).
+  Permissible tether tension (F*\text{max} \approx \sigma_c A_\text{embed}).
+  With three darts each embedding **0.05 m²** equivalent and σ(_c)=300 Pa → per-dart ~15 kN, tripod ≈45 kN.
+  **Design:** keep steady pulls **≤ 50 kN** per contact, add **pitons/drilled anchors** on metal.
+  **Red line:** trying 100–300 kN on loose regolith without proper anchors = **rips out**.
+
+**Pass condition:** choose anchors **≫ ship mass** and use **multiple penetrators** (or embed plates on metallic bodies).
+
+---
+
+# 3) Tether capture dynamics: strain & timing
+
+**Why it can fail:** over-G at capture, material strain, missed timing.
+
+* **Strain energy:** for tether leg with modulus (E) and cross-section (A), max strain (\varepsilon_\text{max} = \sigma_\text{allow}/E).
+  HMPE (Dyneema): (E\sim100) GPa, allow. stress (SF 4) ≈ **0.8–1.0 GPa** ⇒ (\varepsilon\sim0.8–1%).
+* **Stopping distance:** (x \approx \dfrac{m_c v^2}{2 A \sigma_\text{eff}}).
+  Example: (m_c=2000) kg, (v=10) m/s, (A=4\ \text{cm}^2), (\sigma_\text{eff}=0.5) GPa →
+  (x \approx (2000·100)/(2·4e-4·5e8)) = (200,000 / (400,000)) ≈ **0.5 m** (OK).
+  **Red line:** high (v) catches (>~40 m/s) or skinny lines cause **snap** or **excess stroke**.
+* **Timing tolerance:** tip speed (v_\text{tip}=3000) m/s, timing error (\Delta t). Miss distance (d\approx v_\text{tip}\Delta t).
+  For (d\le3) m window → (\Delta t\le1) ms.
+  **Red line:** guidance/clock sync worse than **millisecond** scale at capture ⇒ **miss**.
+  (**Mitigate** with phased arrays, retroreflectors, LIDAR, Kalman filtering.)
+
+**Pass condition:** keep capture relative speeds to **≤10–20 m/s**, use **elastic stroke** in the grapple, and hold **ms-class timing**.
+
+---
+
+# 4) Mass driver: acceleration loads & power
+
+**Why it can fail:** cans crush; power spikes unrealistic.
+
+* Kinematics: (a = v^2/(2L)).
+  For (v=2000) m/s:
+  • (L=1000) m → (a=2000) m/s² ≈ **200 g**
+  • (L=5000) m → (a=400) m/s² ≈ **40 g**
+  • (L=10,000) m → **20 g**
+* **Red line:** If your payloads can’t live at **20–50 g axial**, you need **long barrels** or **multistage accel**.
+* **Energy/ton:** ideal (E=\tfrac12 m v^2) → **0.56 MWh/t** at 2 km/s; at 30–50% total efficiency ⇒ **1.1–1.9 MWh/t** electrical.
+  **Viable** with MW-class reactors.
+* **Rail/coil heating:** duty cycle must keep rails/coils < material limits; use burst-cap banks and cooling.
+
+**Pass condition:** design cans for **20–50 g**, build **km-class** linear tracks (on metal asteroids you can bolt tracks; on rubble, pre-sinter beds).
+
+---
+
+# 5) Rotovator reboost: power & throughput
+
+**Why it can fail:** reboost power too small for cadence.
+
+* From worked example: ~**2.5 MWh** reboost per **1-t** catch (parameters matter).
+  Depot 1 MW → 24 MWh/day → **~9–10 t/day** throughput ceiling (including launcher energy).
+* **Red line:** you promise 100 t/day with a **1–2 MW** depot. Not possible.
+  Need **10–30 MW** electric for 40–120 t/day.
+
+**Pass condition:** scale depot power **with** desired tonnage; multiple tethers distribute load.
+
+---
+
+# 6) Thermal control: radiators
+
+**Why it can fail:** nowhere to dump the waste heat.
+
+* Radiative flux (q=\epsilon\sigma (T^4 - T_\text{space}^4)).
+  At **450–500 K** with (\epsilon\approx0.9), practical (q\sim 3–6\ \text{kW}/\text{m}^2).
+* **Red line:** 10 MW waste at 4 kW/m² ⇒ **2500 m²** radiator minimum; add margin for micrometeoroids, degradation.
+  For 50 MW → **~12,500 m²**.
+  **Mitigate** with deployable panels, loop isolation, self-healing micrometeoroid design.
+
+**Pass condition:** thousands–tens of thousands m² radiator farms are **planned**, not afterthoughts.
+
+---
+
+# 7) Radiation math: shielding sufficiency
+
+**Why it can fail:** under-shielded crewed operations.
+
+* **Solar particle events (SPE):** water 20–30 g/cm² gives **strong** attenuation; storm shelter with **40–60 g/cm²** desirable.
+* **GCR:** no absolute shield; 20 g/cm² reduces dose **significantly**; add **spin gravity** + **mission time limits**.
+* **Red line:** attempt multi-year crewed ops with <10 g/cm² average and no storm shelter ⇒ **unacceptable dose**.
+
+**Pass condition:** use **belt water** for bulk shielding; design **dedicated storm shelter**; validate doses with CRaTER/Badhwar-O’Neill models.
+
+---
+
+# 8) Reliability math: series vs parallel risk
+
+**Why it can fail:** too many series-critical elements (single-point failures).
+
+* **Series reliability:** (R = \prod_i R_i). Ten systems at 0.99 each → (R=0.904).
+* **Parallel redundancy:** (R = 1 - (1-R_i)^n). Two in parallel at 0.99 → 0.9999.
+* **Red line:** mission architectures that require **single** tether, **single** reactor, **single** guidance chain.
+  **Mitigate** with **N+1** on: comms, clocks, GN&C, reactor loops, capture heads.
+
+**Pass condition:** design to **no single point of failure** for life support & capture.
+
+---
+
+# 9) Guidance & corridor accuracy
+
+**Why it can fail:** miss the catcher; debris risk.
+
+* **Window geometry:** with (v_\text{tip}\sim 2–3) km/s, capture window **seconds**-scale in period, **meter**-scale spatially.
+* **Error budget:** navigation (cm), timing (ms), can attitude control (sub-deg).
+* **Red line:** skip **precision beacons/retroreflectors** and **common timebase** (GNSS-like in cis-lunar) ⇒ miss rates unacceptable.
+
+**Pass condition:** deploy **corridor nav networks**, laser ranging, time sync; rehearse with **dummy cans**.
+
+---
+
+# 10) Legal/traffic “math”
+
+**Why it can fail:** unbounded risk exposure.
+
+* **Risk exposure per shot:** (P_\text{misaim} \times C_\text{loss}).
+  Even tiny (P) with “catastrophic” (C) (satellite kill) can kill insurance.
+* **Red line:** operate without **corridors**, **NOTAM-for-space**, **bonded insurance pool**, and **telemetry transparency**.
+
+**Pass condition:** publish **corridor ephemerides**, escrow flight data; pre-priced liability pool.
+
+---
+
+# 11) Economics scaling (very simple, very important)
+
+**Why it can fail:** power/throughput mismatch; wrong customers.
+
+* **Energy/ton (example):** ~3.6 MWh/t (launcher + reboost).
+  Depot 10 MW → 240 MWh/day → **~65 t/day** theoretical.
+  Add ops losses (70%) → **~45 t/day**.
+* **Unit cost floor** (\approx) electricity + amortization (capex/throughput).
+  If electricity “costed” $0.10/kWh equivalent in space, energy floor ~$360/t; even ×10 for capex/O&M → **$3.6k/t** in-space. That’s **orders** cheaper than lifting bulk from Earth.
+* **Red line:** trying to “sell to Earth” (downmass); margins die. **Serve space customers.**
+
+**Pass condition:** customers = depots, habitats, shipyards, probes — **in space**.
+
+---
+
+# 12) Absolute physics checks (make sure we didn’t cheat)
+
+* **Conservation of momentum/energy:** Mag-Tarzan and rotovator are *momentum trades* + **external power**; no violations.
+* **No reactionless thrust claimed:** Every push has an equal pull (on rock or tether); depot power supplies the rest.
+* **No supermaterials assumed:** HMPE/Zylon/graphite already exist; HTS magnets exist; reactors exist.
+
+**Red line:** any claim of long-range magnetic pull without anchors, or FTL-ish travel. Not our design.
+
+---
+
+## “Kill tests” (quick go/no-go checks)
+
+1. **Anchor adequacy:** (M_a \ge 10^3 m_s) **and** anchored area supports (F_\text{pull}\le\sigma_c A_\text{embed}). If not → **pick bigger rock / better anchors**.
+2. **Capture envelope:** (|v_\text{rel}|\le 20) m/s, timing error (\le 1) ms, lateral miss (\le 3) m. If not → **no-go window**.
+3. **Throughput–power:** Desired t/day (\le) ( \dfrac{P_\text{MW}\times 24}{3.6}) (with margin). If not → **add reactors / reduce cadence**.
+4. **Thermal:** Total waste MW / radiator flux kW·m⁻² (\le) radiator area m² with 30% margin. If not → **expand radiators**.
+5. **Shielding:** crewed sections **≥20 g/cm²**; storm shelter **≥40 g/cm²**. If not → **add water**.
+6. **Acceleration:** can structural g-limit (\ge v^2/2Lg). If not → **lengthen barrel** or **stage**.
+
+---
+
+## Bottom line
+
+* There’s **no single physics showstopper** here; the risk lives in **scaling laws** (1/r⁴ fields, ms timing, MW heat rejection, rubble cohesion).
+* All the “red lines” are **engineering discipline**: anchors, timing, power, thermal, redundancy, and law/insurance.
+
+If you want, I can turn these into a **one-page checklist** for scene authenticity (or for a real design review), and a tiny calculator sheet (inputs: ship mass, target Δv, anchor mass, depot MW → outputs: allowed forces, cadence, radiator area).

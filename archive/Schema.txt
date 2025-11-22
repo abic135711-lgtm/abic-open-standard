@@ -1,0 +1,214 @@
+---
+
+# ✅ SCHEMATIC 1 — MGMS SYSTEM OVERVIEW
+
+*(Orthographic: top + side + functional block)*
+
+```
+                    ┌────────────────────────────────────────┐
+                    │         MGMS TENDER — BLOCK A           │
+                    └────────────────────────────────────────┘
+
+TOP VIEW (SYSTEM LAYOUT)
+─────────────────────────────────────────────────────────────────────────
+          [Solar Wing]                         [Solar Wing]
+        ┌───────────────┐                   ┌───────────────┐
+        │               │                   │               │
+        └───────────────┘                   └───────────────┘
+
+                   ┌───────────────────────────────────────┐
+                   │               STARTRACKERS             │
+                   └───────────────────────────────────────┘
+                                   ▲
+                                   │
+ ┌──────────────────────────────┬──┴──┬──────────────────────────────┐
+ │    EM GRAPPLE ARM (PORT)     │ FCU │    EM GRAPPLE ARM (STBD)     │
+ │  • Coil Winding               │     │  • Coil Winding              │
+ │  • Soft-Dock Sensors          │     │  • Soft-Dock Sensors         │
+ │  • Telescoping Boom           │     │  • Telescoping Boom          │
+ └──────────────────────────────┴─────┴──────────────────────────────┘
+
+                       [ COMPUTE CORE / IMU STACK ]
+                       [  Guidance Solver (Δv-opt) ]
+                       [  Arc Planner (Pendulum)   ]
+                       [  Magnetics Control Unit    ]
+
+        ┌─────────────────────────────────────────────────────────┐
+        │   TETHER REEL DECK — T1 / T2 / T3 (Tri-Axis Winches)   │
+        │   • Kevlar/Dyneema Composite                           │
+        │   • Load Cell Sensors                                  │
+        │   • Auto-Cut SCRAM Blade                               │
+        └─────────────────────────────────────────────────────────┘
+
+                      [ PROPELLANT MODULE (RCS + Xenon Opt.) ]
+                      [ THERMAL RADIATOR / CAPACITOR BANK     ]
+
+
+SIDE VIEW (DEPLOYED)
+─────────────────────────────────────────────────────────────────────────
+
+                 ▲   (Startracker Cluster)
+                 │
+                 ●───────┐
+             EM COIL     │      Telescoping Boom (Max 6 m)
+                 ●───────┘
+                 │
+          ┌───────────────────┐
+          │  COMPUTE CORE     │
+          └───────────────────┘
+                 │
+     ┌─────────────────────────────┐
+     │   TRI-AXIS TETHER REELS     │
+     └─────────────────────────────┘
+                 │
+         [ Propulsion Module ]
+                 │
+           (RCS Thrusters)
+```
+
+---
+
+# ✅ SCHEMATIC 2 — “TETHER TRIANGULATION + SWING VECTORING”
+
+*(Engineering-style operational schematic)*
+
+```
+                     ANCHOR FIELD (Fe-Ni CLUSTER)
+───────────────────────────────────────────────────────────────────────
+        A1 ●                       A2 ●                        A3 ●
+         │                          │                          │
+         │                          │                          │
+      (Penetrator Spike)        (Penetrator Spike)        (Penetrator Spike)
+         │                          │                          │
+         └───────────────T1─────────┴───────────T2─────────────┘
+                                   │
+                                   │  (Triangulated Load Axis)
+                                   ▼
+                           ┌────────────────┐
+                           │  TETHER HUB    │
+                           │  (Load Node)   │
+                           └────────────────┘
+                                   │
+                                   │ (Pendulum Attachment)
+                                   ▼
+                             ┌──────────┐
+                             │  MGMS    │
+                             │ TENDER   │
+                             └──────────┘
+
+SWING PHASE VECTOR MODEL
+───────────────────────────────────────────────────────────────────────
+     (1) ALIGNMENT            (2) ARC BUILD               (3) RELEASE
+       Phase                     Phase                       Phase
+
+       ┌──────→ F_align         F_arc ↑                   F_release →
+ A1●───┼───────────────      A1●───┼────────────      A1●───┼───────────────→
+       │                     ↑     │                 ↑      │
+       ▼                     │     ▼                 │      ▼
+      MGMS                  MGMS  MGMS               MGMS (free trajectory)
+
+   • RCS trims            • Gravity gradient     • Release angle θ_rel solved
+   • Tether tension       • Tether tension         from Δv_req & anchor layout
+                          • EM micro-impulse     • RCS micro-correct
+```
+
+---
+
+# ✅ SCHEMATIC 3 — “ARC GEOMETRY + Δv MODEL”
+
+*(Pendulum-transfer diagram using physics notation)*
+
+```
+                       ARC GEOMETRY (TOP-DOWN)
+────────────────────────────────────────────────────────────────────────
+
+                       Release Vector (V_rel)
+                                 →
+                               / θ_rel
+                              /
+                   (Anchor)
+                    ●───────────────●  MGMS (at release)
+                      \   arc path  |
+                       \            |
+                        \           |
+                         \          |
+                          ● MGMS (start)
+
+        Δv_eff ≈ 2 * √(L / g_eff) * sin(θ_rel / 2)
+        where:
+            L = tether length
+            g_eff = microgravity gradient from anchor topology
+            θ_rel = release angle relative to anchor radial
+
+────────────────────────────────────────────────────────────────────────
+```
+
+---
+
+# ✅ SCHEMATIC 4 — “DUAL MGMS STORAGE IN ARK HANGAR”
+
+*(True engineering storage layout)*
+
+```
+                   ARK — BAY 3 (TENDER STORAGE MODULE)
+──────────────────────────────────────────────────────────────────────────
+
+   Ceiling Rail Track
+   ────────────────────────────────────────────────────────────────
+
+   ╔══════════════════╗     ╔══════════════════╗
+   ║   MGMS UNIT 01   ║     ║   MGMS UNIT 02   ║
+   ║  (Stowed Arms)   ║     ║  (Stowed Arms)   ║
+   ╠══════════════════╣     ╠══════════════════╣
+   ║ • EM Coil Folded ║     ║ • EM Coil Folded ║
+   ║ • Booms Locked   ║     ║ • Booms Locked   ║
+   ║ • Winch Deck O/S ║     ║ • Winch Deck O/S ║
+   ╚══════════════════╝     ╚══════════════════╝
+
+   Side Catwalk (Maintenance)
+   ────────────────────────────────────────────────────────────────
+
+   [Tether Cartridge Racks — Spare T1/T2/T3 reels]
+   [Capacitor Bank Service Access]
+   [Power/Data Umbilical Panel]
+
+   Floor Lockdown Grid (4-point mount per unit)
+   ────────────────────────────────────────────────────────────────
+```
+
+---
+
+# ✅ SCHEMATIC 5 — “ANCHOR PUCK INSTALLATION WORKFLOW”
+
+```
+                    ANCHOR PUCK (Fe-Steel)
+────────────────────────────────────────────────────────────
+
+                ┌─────────────────────────┐
+                │  Steel Mass Block       │
+                │  (25–100 kg)            │
+                ├─────────────────────────┤
+                │   Bolt-in Stud Array    │
+                │   (3–6 impact anchors)  │
+                ├─────────────────────────┤
+                │ Microspine / Gecko Pad │
+                │    (optional)          │
+                └─────────────────────────┘
+
+INSTALLATION SEQUENCE
+────────────────────────────────────────────────────────────
+
+   (1) Tender approaches asteroid at <5 cm/s
+        ↓
+   (2) EM-assisted placement against surface
+        ↓
+   (3) Drill studs deploy (impact or screw-in)
+        ↓
+   (4) Tethers attach + tension check
+        ↓
+   (5) Puck becomes permanent anchor node
+```
+
+---
+
+

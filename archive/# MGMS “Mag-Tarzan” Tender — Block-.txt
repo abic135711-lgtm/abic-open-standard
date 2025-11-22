@@ -1,0 +1,127 @@
+# MGMS “Mag-Tarzan” Tender — Block-A (Retrofit Concept Sheet)
+
+**Role:** Low-propellant, close-in maneuver tender for belt ops. Uses **electromagnetic grapples + short tether pendulum arcs** to “swing” between iron-bearing anchors (natural Fe-Ni boulders or pre-placed steel pucks), trimming or changing trajectory with minimal plume or dust.
+
+**Core idea (1-paragraph):**
+An extendable **EM grapple arm** latches to a ferromagnetic anchor; the tender pivots around the contact point on a short tether, then **releases at a timed angle** to inherit a new vector. Small RCS pulses tidy the trajectory. Think *Spider-Man in micro-g*—but with magnets and precise timing.
+
+---
+
+## Heritage (retrofit anchors)
+
+* **Magnetic capture + RPO**: debris-removal servicers (demonstrated mag docking and precision proximity).
+* **Surface adhesion**: microspine/gecko end-effectors (for non-ferrous rock or backup).
+* **Momentum exchange**: tether/rotovator studies (physics precedent for “grab-and-fling”).
+
+---
+
+## Ops Sequence (swing cycle)
+
+1. Scan & select anchor (natural Fe-Ni or **anchor puck**).
+2. Extend arm (3–6 m), soft-dock with **controlled EM field**.
+3. **Pendulum phase** (5–60 s): pivot on 10–50 m tether, build lateral velocity.
+4. Timed **release** at target flight angle.
+5. **Micro-trim** with RCS (≈10⁻⁴ of delta-v you’d otherwise burn).
+6. Repeat as needed; alternate with short electric-prop burns for big changes.
+
+---
+
+## Key Subsystems
+
+* Dual **EM grapple booms** (redundant), telescoping 3–6 m, 1–3 kN peak hold (at contact), variable flux.
+* **Short tether** (10–50 m) Kevlar/Dyneema core, twist-compensated, load sensors, cutter.
+* **Anchor kits**: 25–100 kg steel pucks with bolt-in or drilled studs; optional microspine pad.
+* **Timing & arc solver**: onboard guidance that solves for optimal release angle; uses IMU + lidar.
+* **RCS**: cold-gas or green monoprop for trims; optional 0.3–1 kW Hall or ion thruster for cruise.
+* **Power**: 1.5–2.5 kW continuous (solar), 5–20 kW **capacitor pulse bus** for short EM locks.
+* **Comms/Avionics**: μrad optical or Ka-band; rad-tolerant flight computer; safety interlocks.
+
+---
+
+## Performance (order-of-magnitude)
+
+* **Per-swing Δv-equivalent**: 0.05–0.3 m/s (depends on tether length, anchor geometry, timing).
+* **Daily accumulated trim**: 2–20 m/s (dozens of swings + occasional electric burns).
+* **Arc duration**: 5–60 s typical; **cycle time** 1–5 min including setup/trim.
+* **Anchor capture**: ≤10 cm approach error with lidar; soft-dock impulse < 0.5 N·s.
+* **Dust uplift**: near-zero (no hot plumes), major ops advantage around regolith.
+
+---
+
+## Mass, Volume, Power (Block-A)
+
+* **Dry mass**: 380–520 kg (bus + booms + tether + avionics).
+* **Propellant**: 40–80 kg (cold-gas/green mono); optional 10–20 kg xenon.
+* **Stowed envelope**: **1.5 m × 1.5 m × 2.2 m** (fits two in a modest Ark bay).
+* **Deployed span**: up to 8–12 m tip-to-tip (booms + partial tether).
+* **Power**: 2 kW solar average; **up to 20 kW pulse** from supercaps for ~100–500 ms EM locks.
+
+---
+
+## Safety & Fallbacks
+
+* Dual booms (one fails → keep operating).
+* **Tether cutter** + auto-SCRAM on load spike.
+* EM field ramp-in/out to avoid slap.
+* **Non-ferrous mode**: microspine pad or gecko tile to rock anchor pucks.
+
+---
+
+# Viability: Build Two Units for Ark Hangar (Initial Belt Haul)
+
+**Goal:** Deliver **2× Block-A tenders** stowed in the Ark, commission in cislunar space, and ferry with the Ark to the main-belt depot.
+
+## Packaging & Interfaces
+
+* **Two units** at 500 kg each (wet) → ~1,000–1,200 kg total including handling frames, spares.
+* **Hangar footprint** per unit: 1.5 × 1.5 × 2.2 m; two units side-by-side need ~5.0 m³ plus access.
+* **Mounts**: 4-point hardpoints into Ark deck rails; **umbilicals** for 120 Vdc/2 kW, data, and GN2.
+* **Commissioning**: unfold booms, system checks, low-force grapple tests on Ark’s internal test plate.
+
+## Build Approach (12–16 months, parallelized)
+
+* **Bus**: off-the-shelf small-servicer frame (reaction wheels, RCS, avionics).
+* **Custom**: EM end-effectors (coils, yoke, flux control), telescoping booms, tether cartridge, cap bank.
+* **Software**: guidance & timing solver (pendulum planner), contact sensing, release optimizer.
+* **Anchors**: 12–24 steel pucks (25–50 kg each), drill studs + optional microspine tiles.
+
+**Rough cost (ROM, two flight units + spares):**
+
+* Spacecraft buses: $6–9M
+* EM booms, tether, anchors, cap bank: $8–12M
+* Avionics, power, solar, RCS: $4–6M
+* Software, integration, AIT, qual: $6–9M
+* Ops, GSE, margin (~20%): $6–8M
+  **Total (2 units):** **$30–44M** (engineering-level SWAG; refine during PDR)
+
+## Test & Qualification
+
+* **Component**: coil force curves, thermal/vacuum, tether fatigue, cutter reliability, boom shock.
+* **HIL/Sim**: 6-DoF illumination + lidar scene; pendulum planners vs. contact dynamics.
+* **Micro-g demo** (optional but great PR): parabolic flights with subscale arm + coil and a steel target.
+* **On-orbit demo** (cislunar): capture to Ark **test plate** and to **free-flying ferrous target can** at <5 cm/s; practice **swing-and-release** with micro-tether in safe corridor.
+
+## Risks & Mitigations
+
+* **Anchor scarcity** → carry **anchor pucks**; deploy along work sites.
+* **Non-ferrous geology** → microspine/gecko backup pads.
+* **Tether snap** → dual-strand + load sensing + auto-cut; keep arcs low-energy near crews.
+* **EM heating** → short duty cycles; thermal strap to radiator; coil temp sensors.
+* **Timing errors** → conservative release angles + RCS trim; software-in-the-loop certification.
+
+## Why two is smart (operationally)
+
+* Redundancy for critical belt tasks.
+* **Leapfrogging**: Unit A places new anchors while Unit B ferries tools/samples.
+* Cross-rescue (tow/assist if one is down).
+* Parallel shakedown shortens the learning curve at the depot.
+
+---
+
+## Executive Take
+
+* Physics is sound; components are **near-term** (no magic).
+* Stowed **form factor fits** a practical Ark hangar; two units are reasonable mass.
+* Budget and schedule are startup-scale compared to anything propulsive.
+* Biggest wins: **fuel saved, dust avoided, precision near-surface maneuvering**.
+

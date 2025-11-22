@@ -1,0 +1,218 @@
+
+# ✅ 1) MAG-TARZAN (MGMS) — “Core Concept” Diagram
+
+A simple, clean, intuitive ASCII schematic showing the relationship between the tender, the anchors, the tethers, and the asteroid.
+
+```
+                (Iron-Rich Asteroid Surface)
+        -----------------------------------------------------
+        |                                                   |
+        |        ● A1             ● A2             ● A3     |
+        |       (Anchor 1)       (Anchor 2)       (Anchor 3)|
+        |            \               |               /      |
+        |             \              |              /       |
+        |              \             |             /        |
+        |             T1------------T2------------T3        |
+        |                   (Tether Hub Node)               |
+        |                           |                       |
+        -----------------------------------------------------
+                                    |
+                                    |
+                              [ MGMS Tender ]
+                              ┌─────────────┐
+                              │   COIL EM   │  ← magnetic grappler
+                              │  GRAPPLE    │
+                              └─────────────┘
+                                    |
+                              (Reaction Wheels)
+                                    |
+                              ┌─────────────┐
+                              │ Navigation  │
+                              │ Sensors     │
+                              └─────────────┘
+```
+
+**What This Diagram Shows:**
+
+* **A1–A3** → penetrator anchors fired into surface
+* **T1–T3** → tethers winched to triangulate the hub
+* **Tether Hub Node** → pivot point for swing arc
+* **MGMS Tender** → grapples, swings, releases
+
+---
+
+# ✅ 2) “Swing-and-Release” Dynamics Diagram
+
+A time-step ASCII showing how the tender uses tethers to generate Δv.
+
+```
+         STEP 1 — ANCHOR
+                ●
+             A1 ●       A2 ●       A3 ●
+                \        |        /
+                 \       |       /
+                  \      |      /
+                       (Hub)
+                         |
+                         |
+                      [MGMS]
+
+--------------------------------------------------------
+
+         STEP 2 — PULL-IN + ALIGN
+                ●
+             A1 ●       A2 ●       A3 ●
+                \        |        /
+                 \       |       /
+                  \      |      /
+                       (Hub)───────[MGMS]
+                         |
+                (tension increases)
+
+--------------------------------------------------------
+
+         STEP 3 — SWING ARC
+                ●
+             A1 ●       A2 ●       A3 ●
+                \        |        /
+                 \       |       /
+                  \      |      /
+                (Hub)----[MGMS]---→  arc path
+                         /
+                        /
+                 tether tension
+
+--------------------------------------------------------
+
+         STEP 4 — RELEASE
+                ●
+             A1 ●       A2 ●       A3 ●
+                \        |        /
+                 \       |       /
+                  \      |      /
+                       (Hub)
+                         |
+                MGMS─────→   free drift trajectory
+```
+
+---
+
+# ✅ 3) TENDER BUS HARDWARE LAYOUT
+
+A top-down and side-profile diagram showing where everything sits on the spacecraft.
+
+### TOP VIEW
+
+```
+        ┌─────────────────────────────────┐
+        │            SOLAR WINGS          │
+        └─────────────────────────────────┘
+
+                 ┌──────────────────┐
+                 │  STARTRACKERS    │
+                 └──────────────────┘
+                          ▲
+       ┌──────────────────┼──────────────────┐
+       │                  │                  │
+       │     EM COIL     │     EM COIL       │
+       │   (Primary)     │   (Secondary)     │
+       └──────────────────┼──────────────────┘
+                          ▼
+                 ┌──────────────────┐
+                 │  COMPUTE CORE    │
+                 └──────────────────┘
+
+         ┌─────────────────────────────────────┐
+         │  WINCH SYSTEM (T1 / T2 / T3 reels)   │
+         └─────────────────────────────────────┘
+```
+
+### SIDE VIEW
+
+```
+          +------------------------------------+
+          |  Solar Wing                        |
+          +------------------------------------+
+
+                   ^  startracker cluster
+                   |
+           [───────●────────]  EM Grapple Coil
+                   |
+                   |   Reaction Wheels
+           [  O  O  O  ]
+                   |
+           +----------------+
+           |  Winch Deck    |
+           |  (3 reels)     |
+           +----------------+
+                   |
+              (mount plate)
+                   |
+            ┌─────────────┐
+            │   Thruster  │  (RCS)
+            └─────────────┘
+```
+
+---
+
+# ✅ 4) “Two MGMS Units Stored in Ark Hangar” (Your Request)
+
+Here’s a clean diagram of two tenders packed inside the Ark’s forward bay:
+
+```
+                 [ Ark Hangar Bay — Deck 3 ]
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│   ┌──────────────────┐     ┌──────────────────┐          │
+│   │   MGMS #1         │     │    MGMS #2        │        │
+│   │   (Folded Arms)   │     │   (Folded Arms)   │        │
+│   │    ┌─────┐        │     │    ┌─────┐        │        │
+│   │    │ COIL│        │     │    │ COIL│        │        │
+│   │    └─────┘        │     │    └─────┘        │        │
+│   │       [WINCHES]   │     │      [WINCHES]    │        │
+│   └──────────────────┘     └──────────────────┘          │
+│                                                          │
+│  ←  cargo rack rails  →  ← cargo rack rails →             │
+│                                                          │
+│   Maintenance catwalk + tether spool racks along wall    │
+└──────────────────────────────────────────────────────────┘
+```
+
+This shows:
+
+* Two full tenders side-by-side
+* Folded coil arms for storage
+* Hangar rail alignment
+* Access catwalk + tether rack
+
+---
+
+# ✅ 5) “One-Page Visual Summary” (good for README top)
+
+This is the diagram that *explains everything at a glance*:
+
+```
+                   ASTEROID ANCHOR TRIANGLE
+             ●────────────●────────────●
+             A1           A2           A3
+                  \        |        /
+                   \       |       /
+                    \      |      /
+                     \     |     /
+                        (Tether Hub)
+                             |
+                             |
+                          [MGMS Tender]
+                              |
+                     EM GRAPPLE COIL
+                              |
+                     (Pendulum Arc Δv)
+                              |
+                             →→→
+                   RELEASE + FREE TRAJECTORY
+```
+
+It’s visually clean, intuitive, and perfect for public readers.
+
+---
+
