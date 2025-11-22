@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="A_digital_graphic_design_banner_represents_the_Ast.png" alt="ABIC — Asteroid Belt Industrial Corridor" width="100%">
+</p>
 # 🌐 ABIC — Asteroid Belt Industrial Corridor (Open Standard)
 
 ### *A Public-Domain Framework for Interplanetary Logistics, Governance & Transparency*
